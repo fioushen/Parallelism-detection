@@ -1,0 +1,60 @@
+f3a042dded.cpp
+[Clan] Error: syntax error at line 87, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/f3a042dded.cpp'
+==================================================
+1a64985281.cpp
+[Clan] Error: variable or array reference in an affine expression at line 96, column 6.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/1a64985281.cpp'
+==================================================
+f563190262.cpp
+[Clan] Error: syntax error at line 86, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/f563190262.cpp'
+==================================================
+870b46ae94.cpp
+[Clan] Error: syntax error at line 87, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/870b46ae94.cpp'
+==================================================
+021fdb6755.cpp
+pluto: pluto.c:1182: pluto_detect_transformation_properties: Assertion `0' failed.
+./polycc: 行 54:  5041 已放弃               $pluto $*
+==================================================
+5dfea5b2b2.cpp
+[Clan] Error: variable or array reference in an affine expression at line 98, column 6.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/5dfea5b2b2.cpp'
+==================================================
+f492092a2f.cpp
+[Clan] Error: syntax error at line 88, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/f492092a2f.cpp'
+==================================================
+
+845dde5359.cpp
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/845dde5359.cpp'
+==================================================
+e8813a3fe3.cpp
+[Clan] Error: syntax error at line 87, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/e8813a3fe3.cpp'
+==================================================
+9885795d5d.cpp
+[Clan] Error: syntax error at line 96, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/9885795d5d.cpp'
+==================================================
+93069ada24.cpp
+[Clan] Error: syntax error at line 88, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/93069ada24.cpp'
+==================================================
+
+cec9db6cc3.cpp
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/cec9db6cc3.cpp'
+==================================================
+0bc5b62ffe.cpp
+[Clan] Error: syntax error at line 86, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/0bc5b62ffe.cpp'
+==================================================
+356582ca2b.cpp
+[Clan] Error: syntax error at line 86, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/356582ca2b.cpp'
+==================================================
+8b4fabd79c.cpp
+[Clan] Error: syntax error at line 86, column 29.
+Error extracting polyhedra from source file: '../data/pre_data/after_extract/8b4fabd79c.cpp'
+==================================================

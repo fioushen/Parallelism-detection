@@ -1,0 +1,1037 @@
+#nodes: 196
+#edges: 319
+
+Nodes (196):
+--------------------------------------------------------------------------------
+@0                                                          , global
+caxpy__0_%L.entry                                           , label
+caxpy__0_%n                                                 , local
+caxpy__0_%ca                                                , local
+caxpy__0_%cx                                                , local
+caxpy__0_%incx                                              , local
+caxpy__0_%cy                                                , local
+caxpy__0_%incy                                              , local
+caxpy__0_%0                                                 , local
+caxpy__0_%cy43                                              , local
+caxpy__0_%cy41                                              , local
+caxpy__0_%1                                                 , local
+caxpy__0_%2                                                 , local
+caxpy__0_%L.LB1_310                                         , label
+caxpy__0_%L.LB1_351                                         , label
+caxpy__0_%3                                                 , local
+caxpy__0_%4                                                 , local
+caxpy__0_%5                                                 , local
+caxpy__0_%L.LB1_352                                         , label
+caxpy__0_%6                                                 , local
+caxpy__0_%7                                                 , local
+caxpy__0_%8                                                 , local
+caxpy__0_%L.LB1_353                                         , label
+caxpy__0_%L.LB1_317                                         , label
+caxpy__0_%9                                                 , local
+caxpy__0_%10                                                , local
+caxpy__0_%11                                                , local
+caxpy__0_%L.LB1_354                                         , label
+caxpy__0_%L.LB1_322thread-pre-split                         , label
+caxpy__0_%12                                                , local
+caxpy__0_%13                                                , local
+caxpy__0_%L.LB1_318.preheader                               , label
+caxpy__0_%14                                                , local
+caxpy__0_%.elt                                              , local
+caxpy__0_%.unpack                                           , local
+caxpy__0_%.elt2                                             , local
+caxpy__0_%.unpack3                                          , local
+caxpy__0_%15                                                , local
+caxpy__0_%16                                                , local
+caxpy__0_%17                                                , local
+caxpy__0_%18                                                , local
+caxpy__0_%smax                                              , local
+caxpy__0_%19                                                , local
+caxpy__0_%20                                                , local
+caxpy__0_%21                                                , local
+caxpy__0_%22                                                , local
+caxpy__0_%min.iters.check                                   , local
+caxpy__0_%L.LB1_318.preheader61                             , label
+caxpy__0_%vector.scevcheck                                  , label
+caxpy__0_%23                                                , local
+caxpy__0_%24                                                , local
+caxpy__0_%smax40                                            , local
+caxpy__0_%25                                                , local
+caxpy__0_%26                                                , local
+caxpy__0_%uglygep                                           , local
+caxpy__0_%uglygep42                                         , local
+caxpy__0_%27                                                , local
+caxpy__0_%mul                                               , local
+caxpy__0_%28                                                , local
+caxpy__0_%29                                                , local
+caxpy__0_%30                                                , local
+caxpy__0_%mul44                                             , local
+caxpy__0_%31                                                , local
+caxpy__0_%32                                                , local
+caxpy__0_%33                                                , local
+caxpy__0_%vector.ph                                         , label
+caxpy__0_%34                                                , local
+caxpy__0_%35                                                , local
+caxpy__0_%n.mod.vf                                          , local
+caxpy__0_%n.vec                                             , local
+caxpy__0_%ind.end                                           , local
+caxpy__0_%cast.crd                                          , local
+caxpy__0_%ind.end48                                         , local
+caxpy__0_%broadcast.splatinsert54                           , local
+caxpy__0_%broadcast.splat55                                 , local
+caxpy__0_%broadcast.splatinsert56                           , local
+caxpy__0_%broadcast.splat57                                 , local
+caxpy__0_%vector.body                                       , label
+caxpy__0_%index                                             , local
+caxpy__0_%index.next                                        , local
+caxpy__0_%offset.idx                                        , local
+caxpy__0_%36                                                , local
+caxpy__0_%37                                                , local
+caxpy__0_%wide.vec                                          , local
+caxpy__0_%strided.vec                                       , local
+caxpy__0_%strided.vec53                                     , local
+caxpy__0_%38                                                , local
+caxpy__0_%39                                                , local
+caxpy__0_%40                                                , local
+caxpy__0_%41                                                , local
+caxpy__0_%42                                                , local
+caxpy__0_%43                                                , local
+caxpy__0_%44                                                , local
+caxpy__0_%45                                                , local
+caxpy__0_%46                                                , local
+caxpy__0_%wide.vec58                                        , local
+caxpy__0_%strided.vec59                                     , local
+caxpy__0_%strided.vec60                                     , local
+caxpy__0_%47                                                , local
+caxpy__0_%48                                                , local
+caxpy__0_%49                                                , local
+caxpy__0_%50                                                , local
+caxpy__0_%51                                                , local
+caxpy__0_%interleaved.vec                                   , local
+caxpy__0_%52                                                , local
+caxpy__0_%middle.block                                      , label
+caxpy__0_%cmp.n                                             , local
+caxpy__0_%indvars.iv.ph                                     , local
+caxpy__0_%.dY0001_320.0.ph                                  , local
+caxpy__0_%L.LB1_318                                         , label
+caxpy__0_%indvars.iv                                        , local
+caxpy__0_%indvars.iv.next                                   , local
+caxpy__0_%.dY0001_320.0                                     , local
+caxpy__0_%65                                                , local
+caxpy__0_%53                                                , local
+caxpy__0_%54                                                , local
+caxpy__0_%.elt4                                             , local
+caxpy__0_%.unpack5                                          , local
+caxpy__0_%.elt6                                             , local
+caxpy__0_%.unpack7                                          , local
+caxpy__0_%55                                                , local
+caxpy__0_%56                                                , local
+caxpy__0_%57                                                , local
+caxpy__0_%58                                                , local
+caxpy__0_%59                                                , local
+caxpy__0_%60                                                , local
+caxpy__0_%61                                                , local
+caxpy__0_%62                                                , local
+caxpy__0_%.elt8                                             , local
+caxpy__0_%.unpack9                                          , local
+caxpy__0_%.elt10                                            , local
+caxpy__0_%.unpack11                                         , local
+caxpy__0_%63                                                , local
+caxpy__0_%64                                                , local
+caxpy__0_%66                                                , local
+caxpy__0_%67                                                , local
+caxpy__0_%L.LB1_355                                         , label
+caxpy__0_%68                                                , local
+caxpy__0_%69                                                , local
+caxpy__0_%70                                                , local
+caxpy__0_%71                                                , local
+caxpy__0_%phitmp                                            , local
+caxpy__0_%L.LB1_322                                         , label
+caxpy__0_%.pr.pr                                            , local
+caxpy__0_%.pr                                               , local
+caxpy__0_%ix_307.0                                          , local
+caxpy__0_%72                                                , local
+caxpy__0_%73                                                , local
+caxpy__0_%74                                                , local
+caxpy__0_%L.LB1_323                                         , label
+caxpy__0_%L.LB1_356                                         , label
+caxpy__0_%75                                                , local
+caxpy__0_%76                                                , local
+caxpy__0_%77                                                , local
+caxpy__0_%phitmp37                                          , local
+caxpy__0_%iy_308.0                                          , local
+caxpy__0_%78                                                , local
+caxpy__0_%L.LB1_324.preheader                               , label
+caxpy__0_%79                                                , local
+caxpy__0_%.elt15                                            , local
+caxpy__0_%.unpack16                                         , local
+caxpy__0_%.elt17                                            , local
+caxpy__0_%.unpack18                                         , local
+caxpy__0_%80                                                , local
+caxpy__0_%81                                                , local
+caxpy__0_%82                                                , local
+caxpy__0_%83                                                , local
+caxpy__0_%L.LB1_324                                         , label
+caxpy__0_%indvars.iv35                                      , local
+caxpy__0_%indvars.iv.next36                                 , local
+caxpy__0_%indvars.iv33                                      , local
+caxpy__0_%indvars.iv.next34                                 , local
+caxpy__0_%.dY0002_326.0                                     , local
+caxpy__0_%96                                                , local
+caxpy__0_%84                                                , local
+caxpy__0_%85                                                , local
+caxpy__0_%.elt19                                            , local
+caxpy__0_%.unpack20                                         , local
+caxpy__0_%.elt21                                            , local
+caxpy__0_%.unpack22                                         , local
+caxpy__0_%86                                                , local
+caxpy__0_%87                                                , local
+caxpy__0_%88                                                , local
+caxpy__0_%89                                                , local
+caxpy__0_%90                                                , local
+caxpy__0_%91                                                , local
+caxpy__0_%92                                                , local
+caxpy__0_%93                                                , local
+caxpy__0_%.elt23                                            , local
+caxpy__0_%.unpack24                                         , local
+caxpy__0_%.elt25                                            , local
+caxpy__0_%.unpack26                                         , local
+caxpy__0_%94                                                , local
+caxpy__0_%95                                                , local
+caxpy__0_%97                                                , local
+caxpy__0_#ret                                               , imm
+
+Local identifier nodes: 
+#nodes: 173
+--------------------------------------------------------------------------------
+caxpy__0_%n                                                 
+caxpy__0_%ca                                                
+caxpy__0_%cx                                                
+caxpy__0_%incx                                              
+caxpy__0_%cy                                                
+caxpy__0_%incy                                              
+caxpy__0_%0                                                 
+caxpy__0_%cy43                                              
+caxpy__0_%cy41                                              
+caxpy__0_%1                                                 
+caxpy__0_%2                                                 
+caxpy__0_%3                                                 
+caxpy__0_%4                                                 
+caxpy__0_%5                                                 
+caxpy__0_%6                                                 
+caxpy__0_%7                                                 
+caxpy__0_%8                                                 
+caxpy__0_%9                                                 
+caxpy__0_%10                                                
+caxpy__0_%11                                                
+caxpy__0_%12                                                
+caxpy__0_%13                                                
+caxpy__0_%14                                                
+caxpy__0_%.elt                                              
+caxpy__0_%.unpack                                           
+caxpy__0_%.elt2                                             
+caxpy__0_%.unpack3                                          
+caxpy__0_%15                                                
+caxpy__0_%16                                                
+caxpy__0_%17                                                
+caxpy__0_%18                                                
+caxpy__0_%smax                                              
+caxpy__0_%19                                                
+caxpy__0_%20                                                
+caxpy__0_%21                                                
+caxpy__0_%22                                                
+caxpy__0_%min.iters.check                                   
+caxpy__0_%23                                                
+caxpy__0_%24                                                
+caxpy__0_%smax40                                            
+caxpy__0_%25                                                
+caxpy__0_%26                                                
+caxpy__0_%uglygep                                           
+caxpy__0_%uglygep42                                         
+caxpy__0_%27                                                
+caxpy__0_%mul                                               
+caxpy__0_%28                                                
+caxpy__0_%29                                                
+caxpy__0_%30                                                
+caxpy__0_%mul44                                             
+caxpy__0_%31                                                
+caxpy__0_%32                                                
+caxpy__0_%33                                                
+caxpy__0_%34                                                
+caxpy__0_%35                                                
+caxpy__0_%n.mod.vf                                          
+caxpy__0_%n.vec                                             
+caxpy__0_%ind.end                                           
+caxpy__0_%cast.crd                                          
+caxpy__0_%ind.end48                                         
+caxpy__0_%broadcast.splatinsert54                           
+caxpy__0_%broadcast.splat55                                 
+caxpy__0_%broadcast.splatinsert56                           
+caxpy__0_%broadcast.splat57                                 
+caxpy__0_%index                                             
+caxpy__0_%index.next                                        
+caxpy__0_%offset.idx                                        
+caxpy__0_%36                                                
+caxpy__0_%37                                                
+caxpy__0_%wide.vec                                          
+caxpy__0_%strided.vec                                       
+caxpy__0_%strided.vec53                                     
+caxpy__0_%38                                                
+caxpy__0_%39                                                
+caxpy__0_%40                                                
+caxpy__0_%41                                                
+caxpy__0_%42                                                
+caxpy__0_%43                                                
+caxpy__0_%44                                                
+caxpy__0_%45                                                
+caxpy__0_%46                                                
+caxpy__0_%wide.vec58                                        
+caxpy__0_%strided.vec59                                     
+caxpy__0_%strided.vec60                                     
+caxpy__0_%47                                                
+caxpy__0_%48                                                
+caxpy__0_%49                                                
+caxpy__0_%50                                                
+caxpy__0_%51                                                
+caxpy__0_%interleaved.vec                                   
+caxpy__0_%52                                                
+caxpy__0_%cmp.n                                             
+caxpy__0_%indvars.iv.ph                                     
+caxpy__0_%.dY0001_320.0.ph                                  
+caxpy__0_%indvars.iv                                        
+caxpy__0_%indvars.iv.next                                   
+caxpy__0_%.dY0001_320.0                                     
+caxpy__0_%65                                                
+caxpy__0_%53                                                
+caxpy__0_%54                                                
+caxpy__0_%.elt4                                             
+caxpy__0_%.unpack5                                          
+caxpy__0_%.elt6                                             
+caxpy__0_%.unpack7                                          
+caxpy__0_%55                                                
+caxpy__0_%56                                                
+caxpy__0_%57                                                
+caxpy__0_%58                                                
+caxpy__0_%59                                                
+caxpy__0_%60                                                
+caxpy__0_%61                                                
+caxpy__0_%62                                                
+caxpy__0_%.elt8                                             
+caxpy__0_%.unpack9                                          
+caxpy__0_%.elt10                                            
+caxpy__0_%.unpack11                                         
+caxpy__0_%63                                                
+caxpy__0_%64                                                
+caxpy__0_%66                                                
+caxpy__0_%67                                                
+caxpy__0_%68                                                
+caxpy__0_%69                                                
+caxpy__0_%70                                                
+caxpy__0_%71                                                
+caxpy__0_%phitmp                                            
+caxpy__0_%.pr.pr                                            
+caxpy__0_%.pr                                               
+caxpy__0_%ix_307.0                                          
+caxpy__0_%72                                                
+caxpy__0_%73                                                
+caxpy__0_%74                                                
+caxpy__0_%75                                                
+caxpy__0_%76                                                
+caxpy__0_%77                                                
+caxpy__0_%phitmp37                                          
+caxpy__0_%iy_308.0                                          
+caxpy__0_%78                                                
+caxpy__0_%79                                                
+caxpy__0_%.elt15                                            
+caxpy__0_%.unpack16                                         
+caxpy__0_%.elt17                                            
+caxpy__0_%.unpack18                                         
+caxpy__0_%80                                                
+caxpy__0_%81                                                
+caxpy__0_%82                                                
+caxpy__0_%83                                                
+caxpy__0_%indvars.iv35                                      
+caxpy__0_%indvars.iv.next36                                 
+caxpy__0_%indvars.iv33                                      
+caxpy__0_%indvars.iv.next34                                 
+caxpy__0_%.dY0002_326.0                                     
+caxpy__0_%96                                                
+caxpy__0_%84                                                
+caxpy__0_%85                                                
+caxpy__0_%.elt19                                            
+caxpy__0_%.unpack20                                         
+caxpy__0_%.elt21                                            
+caxpy__0_%.unpack22                                         
+caxpy__0_%86                                                
+caxpy__0_%87                                                
+caxpy__0_%88                                                
+caxpy__0_%89                                                
+caxpy__0_%90                                                
+caxpy__0_%91                                                
+caxpy__0_%92                                                
+caxpy__0_%93                                                
+caxpy__0_%.elt23                                            
+caxpy__0_%.unpack24                                         
+caxpy__0_%.elt25                                            
+caxpy__0_%.unpack26                                         
+caxpy__0_%94                                                
+caxpy__0_%95                                                
+caxpy__0_%97                                                
+
+Block reference nodes: 
+#nodes: 21
+--------------------------------------------------------------------------------
+caxpy__0_%L.entry                                           
+caxpy__0_%L.LB1_310                                         
+caxpy__0_%L.LB1_351                                         
+caxpy__0_%L.LB1_352                                         
+caxpy__0_%L.LB1_353                                         
+caxpy__0_%L.LB1_317                                         
+caxpy__0_%L.LB1_354                                         
+caxpy__0_%L.LB1_322thread-pre-split                         
+caxpy__0_%L.LB1_318.preheader                               
+caxpy__0_%L.LB1_318.preheader61                             
+caxpy__0_%vector.scevcheck                                  
+caxpy__0_%vector.ph                                         
+caxpy__0_%vector.body                                       
+caxpy__0_%middle.block                                      
+caxpy__0_%L.LB1_318                                         
+caxpy__0_%L.LB1_355                                         
+caxpy__0_%L.LB1_322                                         
+caxpy__0_%L.LB1_323                                         
+caxpy__0_%L.LB1_356                                         
+caxpy__0_%L.LB1_324.preheader                               
+caxpy__0_%L.LB1_324                                         
+
+Global nodes: 
+#nodes: 1
+--------------------------------------------------------------------------------
+@0                                                          
+
+Immediate value nodes: 
+#nodes: 0
+--------------------------------------------------------------------------------
+
+Ad hoc value nodes: 
+#nodes: 0
+--------------------------------------------------------------------------------
+
+Leaf nodes: 
+#nodes: 2
+--------------------------------------------------------------------------------
+caxpy__0_%51                                                
+caxpy__0_#ret                                               
+
+Root nodes: 
+#nodes: 1
+--------------------------------------------------------------------------------
+@0                                                          
+
+Isolated nodes: 
+#nodes: 0
+--------------------------------------------------------------------------------
+
+
+Edges (319)
+--------------------------------------------------------------------------------
+(@0                            , caxpy__0_%L.entry             ) define void @caxpy_(i64* nocapture readonly %n, i64* %ca, i64* nocapture readonly %cx, i64* nocapture readonly %incx, i64* nocapture %cy, i64* nocapture readonly %incy) local_unnamed_addr
+(caxpy__0_%L.entry             , caxpy__0_%n                   ) define void @caxpy_(i64* nocapture readonly %n, i64* %ca, i64* nocapture readonly %cx, i64* nocapture readonly %incx, i64* nocapture %cy, i64* nocapture readonly %incy) local_unnamed_addr
+(caxpy__0_%L.entry             , caxpy__0_%ca                  ) define void @caxpy_(i64* nocapture readonly %n, i64* %ca, i64* nocapture readonly %cx, i64* nocapture readonly %incx, i64* nocapture %cy, i64* nocapture readonly %incy) local_unnamed_addr
+(caxpy__0_%L.entry             , caxpy__0_%cx                  ) define void @caxpy_(i64* nocapture readonly %n, i64* %ca, i64* nocapture readonly %cx, i64* nocapture readonly %incx, i64* nocapture %cy, i64* nocapture readonly %incy) local_unnamed_addr
+(caxpy__0_%L.entry             , caxpy__0_%incx                ) define void @caxpy_(i64* nocapture readonly %n, i64* %ca, i64* nocapture readonly %cx, i64* nocapture readonly %incx, i64* nocapture %cy, i64* nocapture readonly %incy) local_unnamed_addr
+(caxpy__0_%L.entry             , caxpy__0_%cy                  ) define void @caxpy_(i64* nocapture readonly %n, i64* %ca, i64* nocapture readonly %cx, i64* nocapture readonly %incx, i64* nocapture %cy, i64* nocapture readonly %incy) local_unnamed_addr
+(caxpy__0_%L.entry             , caxpy__0_%incy                ) define void @caxpy_(i64* nocapture readonly %n, i64* %ca, i64* nocapture readonly %cx, i64* nocapture readonly %incx, i64* nocapture %cy, i64* nocapture readonly %incy) local_unnamed_addr
+(caxpy__0_%L.entry             , caxpy__0_%0                   ) %0 = bitcast i64* %n to i32*
+(caxpy__0_%L.entry             , caxpy__0_%cy43                ) %cy43 = ptrtoint i64* %cy to i64
+(caxpy__0_%L.entry             , caxpy__0_%cy41                ) %cy41 = bitcast i64* %cy to i8*
+(caxpy__0_%n                   , caxpy__0_%0                   ) %0 = bitcast i64* %n to i32*
+(caxpy__0_%ca                  , caxpy__0_%3                   ) %3 = bitcast i64* %ca to i8*
+(caxpy__0_%ca                  , caxpy__0_%14                  ) %14 = bitcast i64* %ca to <{ float, float }>*
+(caxpy__0_%ca                  , caxpy__0_%.elt                ) %.elt = bitcast i64* %ca to float*
+(caxpy__0_%ca                  , caxpy__0_%79                  ) %79 = bitcast i64* %ca to <{ float, float }>*
+(caxpy__0_%ca                  , caxpy__0_%.elt15              ) %.elt15 = bitcast i64* %ca to float*
+(caxpy__0_%cx                  , caxpy__0_%15                  ) %15 = getelementptr i64, i64* %cx, i64 -1
+(caxpy__0_%cx                  , caxpy__0_%80                  ) %80 = getelementptr i64, i64* %cx, i64 -1
+(caxpy__0_%incx                , caxpy__0_%6                   ) %6 = bitcast i64* %incx to i32*
+(caxpy__0_%cy                  , caxpy__0_%cy43                ) %cy43 = ptrtoint i64* %cy to i64
+(caxpy__0_%cy                  , caxpy__0_%cy41                ) %cy41 = bitcast i64* %cy to i8*
+(caxpy__0_%cy                  , caxpy__0_%16                  ) %16 = getelementptr i64, i64* %cy, i64 -1
+(caxpy__0_%cy                  , caxpy__0_%81                  ) %81 = getelementptr i64, i64* %cy, i64 -1
+(caxpy__0_%incy                , caxpy__0_%9                   ) %9 = bitcast i64* %incy to i32*
+(caxpy__0_%incy                , caxpy__0_%72                  ) %72 = bitcast i64* %incy to i32*
+(caxpy__0_%0                   , caxpy__0_%1                   ) %1 = load i32, i32* %0, align 4
+(caxpy__0_%0                   , caxpy__0_%12                  ) %12 = load i32, i32* %0, align 4
+(caxpy__0_%0                   , caxpy__0_%68                  ) %68 = load i32, i32* %0, align 4
+(caxpy__0_%0                   , caxpy__0_%.pr.pr              ) %.pr.pr = load i32, i32* %0, align 4
+(caxpy__0_%cy43                , caxpy__0_%31                  ) %31 = add i64 %mul44, %cy43
+(caxpy__0_%cy43                , caxpy__0_%32                  ) %32 = icmp ult i64 %31, %cy43
+(caxpy__0_%cy41                , caxpy__0_%uglygep             ) %uglygep = getelementptr i8, i8* %cy41, i64 4
+(caxpy__0_%1                   , caxpy__0_%2                   ) %2 = icmp slt i32 %1, 1
+(caxpy__0_%2                   , caxpy__0_%L.LB1_310           ) br i1 %2, label %L.LB1_310, label %L.LB1_351
+(caxpy__0_%2                   , caxpy__0_%L.LB1_351           ) br i1 %2, label %L.LB1_310, label %L.LB1_351
+(caxpy__0_%L.LB1_310           , caxpy__0_#ret                 ) ret void
+(caxpy__0_%L.LB1_351           , caxpy__0_%3                   ) %3 = bitcast i64* %ca to i8*
+(caxpy__0_%3                   , caxpy__0_%4                   ) %4 = tail call float (i8*, ...) bitcast (float (...)* @scabs1_ to float (i8*, ...)*)(i8* %3)
+(caxpy__0_%4                   , caxpy__0_%5                   ) %5 = fcmp oeq float %4, 0.000000e+00
+(caxpy__0_%5                   , caxpy__0_%L.LB1_310           ) br i1 %5, label %L.LB1_310, label %L.LB1_352
+(caxpy__0_%5                   , caxpy__0_%L.LB1_352           ) br i1 %5, label %L.LB1_310, label %L.LB1_352
+(caxpy__0_%L.LB1_352           , caxpy__0_%6                   ) %6 = bitcast i64* %incx to i32*
+(caxpy__0_%6                   , caxpy__0_%7                   ) %7 = load i32, i32* %6, align 4
+(caxpy__0_%7                   , caxpy__0_%8                   ) %8 = icmp eq i32 %7, 1
+(caxpy__0_%7                   , caxpy__0_%67                  ) %67 = icmp sgt i32 %7, -1
+(caxpy__0_%7                   , caxpy__0_%70                  ) %70 = mul nsw i32 %69, %7
+(caxpy__0_%7                   , caxpy__0_%82                  ) %82 = sext i32 %7 to i64
+(caxpy__0_%8                   , caxpy__0_%L.LB1_353           ) br i1 %8, label %L.LB1_353, label %L.LB1_317
+(caxpy__0_%8                   , caxpy__0_%L.LB1_317           ) br i1 %8, label %L.LB1_353, label %L.LB1_317
+(caxpy__0_%L.LB1_353           , caxpy__0_%9                   ) %9 = bitcast i64* %incy to i32*
+(caxpy__0_%L.LB1_317           , caxpy__0_%67                  ) %67 = icmp sgt i32 %7, -1
+(caxpy__0_%9                   , caxpy__0_%10                  ) %10 = load i32, i32* %9, align 4
+(caxpy__0_%10                  , caxpy__0_%11                  ) %11 = icmp eq i32 %10, 1
+(caxpy__0_%11                  , caxpy__0_%L.LB1_354           ) br i1 %11, label %L.LB1_354, label %L.LB1_322thread-pre-split
+(caxpy__0_%11                  , caxpy__0_%L.LB1_322thread-pre-) br i1 %11, label %L.LB1_354, label %L.LB1_322thread-pre-split
+(caxpy__0_%L.LB1_354           , caxpy__0_%12                  ) %12 = load i32, i32* %0, align 4
+(caxpy__0_%L.LB1_322thread-pre-, caxpy__0_%.pr.pr              ) %.pr.pr = load i32, i32* %0, align 4
+(caxpy__0_%12                  , caxpy__0_%13                  ) %13 = icmp slt i32 %12, 1
+(caxpy__0_%12                  , caxpy__0_%17                  ) %17 = xor i32 %12, -1
+(caxpy__0_%12                  , caxpy__0_%19                  ) %19 = add i32 %12, %smax
+(caxpy__0_%12                  , caxpy__0_%23                  ) %23 = xor i32 %12, -1
+(caxpy__0_%12                  , caxpy__0_%25                  ) %25 = add i32 %12, %smax40
+(caxpy__0_%12                  , caxpy__0_%ind.end48           ) %ind.end48 = sub i32 %12, %cast.crd
+(caxpy__0_%12                  , caxpy__0_%.dY0001_320.0.ph    ) %.dY0001_320.0.ph = phi i32 [ %12, %vector.scevcheck ], [ %12, %L.LB1_318.preheader ], [ %ind.end48, %middle.block ]
+(caxpy__0_%12                  , caxpy__0_%.dY0001_320.0.ph    ) %.dY0001_320.0.ph = phi i32 [ %12, %vector.scevcheck ], [ %12, %L.LB1_318.preheader ], [ %ind.end48, %middle.block ]
+(caxpy__0_%13                  , caxpy__0_%L.LB1_310           ) br i1 %13, label %L.LB1_310, label %L.LB1_318.preheader
+(caxpy__0_%13                  , caxpy__0_%L.LB1_318.preheader ) br i1 %13, label %L.LB1_310, label %L.LB1_318.preheader
+(caxpy__0_%L.LB1_318.preheader , caxpy__0_%14                  ) %14 = bitcast i64* %ca to <{ float, float }>*
+(caxpy__0_%L.LB1_318.preheader , caxpy__0_%.elt                ) %.elt = bitcast i64* %ca to float*
+(caxpy__0_%L.LB1_318.preheader , caxpy__0_%15                  ) %15 = getelementptr i64, i64* %cx, i64 -1
+(caxpy__0_%L.LB1_318.preheader , caxpy__0_%16                  ) %16 = getelementptr i64, i64* %cy, i64 -1
+(caxpy__0_%L.LB1_318.preheader , caxpy__0_%17                  ) %17 = xor i32 %12, -1
+(caxpy__0_%14                  , caxpy__0_%.elt2               ) %.elt2 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %14, i64 0, i32 1
+(caxpy__0_%.elt                , caxpy__0_%.unpack             ) %.unpack = load float, float* %.elt, align 1
+(caxpy__0_%.unpack             , caxpy__0_%broadcast.splatinser) %broadcast.splatinsert54 = insertelement <4 x float> undef, float %.unpack, i32 0
+(caxpy__0_%.unpack             , caxpy__0_%55                  ) %55 = fmul float %.unpack, %.unpack5
+(caxpy__0_%.unpack             , caxpy__0_%56                  ) %56 = fmul float %.unpack, %.unpack7
+(caxpy__0_%.elt2               , caxpy__0_%.unpack3            ) %.unpack3 = load float, float* %.elt2, align 1
+(caxpy__0_%.unpack3            , caxpy__0_%broadcast.splatinser) %broadcast.splatinsert56 = insertelement <4 x float> undef, float %.unpack3, i32 0
+(caxpy__0_%.unpack3            , caxpy__0_%57                  ) %57 = fmul float %.unpack3, %.unpack5
+(caxpy__0_%.unpack3            , caxpy__0_%58                  ) %58 = fmul float %.unpack3, %.unpack7
+(caxpy__0_%15                  , caxpy__0_%36                  ) %36 = getelementptr i64, i64* %15, i64 %offset.idx
+(caxpy__0_%15                  , caxpy__0_%53                  ) %53 = getelementptr i64, i64* %15, i64 %indvars.iv
+(caxpy__0_%16                  , caxpy__0_%44                  ) %44 = getelementptr i64, i64* %16, i64 %offset.idx
+(caxpy__0_%16                  , caxpy__0_%61                  ) %61 = getelementptr i64, i64* %16, i64 %indvars.iv
+(caxpy__0_%17                  , caxpy__0_%18                  ) %18 = icmp sgt i32 %17, -2
+(caxpy__0_%17                  , caxpy__0_%smax                ) %smax = select i1 %18, i32 %17, i32 -2
+(caxpy__0_%18                  , caxpy__0_%smax                ) %smax = select i1 %18, i32 %17, i32 -2
+(caxpy__0_%smax                , caxpy__0_%19                  ) %19 = add i32 %12, %smax
+(caxpy__0_%19                  , caxpy__0_%20                  ) %20 = add i32 %19, 1
+(caxpy__0_%19                  , caxpy__0_%34                  ) %34 = add i32 %19, 2
+(caxpy__0_%20                  , caxpy__0_%21                  ) %21 = zext i32 %20 to i64
+(caxpy__0_%21                  , caxpy__0_%22                  ) %22 = add nuw nsw i64 %21, 1
+(caxpy__0_%22                  , caxpy__0_%min.iters.check     ) %min.iters.check = icmp ult i64 %22, 4
+(caxpy__0_%22                  , caxpy__0_%n.vec               ) %n.vec = sub nsw i64 %22, %n.mod.vf
+(caxpy__0_%min.iters.check     , caxpy__0_%L.LB1_318.preheader6) br i1 %min.iters.check, label %L.LB1_318.preheader61, label %vector.scevcheck
+(caxpy__0_%min.iters.check     , caxpy__0_%vector.scevcheck    ) br i1 %min.iters.check, label %L.LB1_318.preheader61, label %vector.scevcheck
+(caxpy__0_%L.LB1_318.preheader6, caxpy__0_%indvars.iv.ph       ) %indvars.iv.ph = phi i64 [ 1, %vector.scevcheck ], [ 1, %L.LB1_318.preheader ], [ %ind.end, %middle.block ]
+(caxpy__0_%L.LB1_318.preheader6, caxpy__0_%.dY0001_320.0.ph    ) %.dY0001_320.0.ph = phi i32 [ %12, %vector.scevcheck ], [ %12, %L.LB1_318.preheader ], [ %ind.end48, %middle.block ]
+(caxpy__0_%vector.scevcheck    , caxpy__0_%23                  ) %23 = xor i32 %12, -1
+(caxpy__0_%vector.scevcheck    , caxpy__0_%uglygep             ) %uglygep = getelementptr i8, i8* %cy41, i64 4
+(caxpy__0_%23                  , caxpy__0_%24                  ) %24 = icmp sgt i32 %23, -2
+(caxpy__0_%23                  , caxpy__0_%smax40              ) %smax40 = select i1 %24, i32 %23, i32 -2
+(caxpy__0_%24                  , caxpy__0_%smax40              ) %smax40 = select i1 %24, i32 %23, i32 -2
+(caxpy__0_%smax40              , caxpy__0_%25                  ) %25 = add i32 %12, %smax40
+(caxpy__0_%25                  , caxpy__0_%26                  ) %26 = add i32 %25, 1
+(caxpy__0_%26                  , caxpy__0_%27                  ) %27 = zext i32 %26 to i64
+(caxpy__0_%26                  , caxpy__0_%30                  ) %30 = zext i32 %26 to i64
+(caxpy__0_%uglygep             , caxpy__0_%uglygep42           ) %uglygep42 = ptrtoint i8* %uglygep to i64
+(caxpy__0_%uglygep42           , caxpy__0_%28                  ) %28 = add i64 %mul, %uglygep42
+(caxpy__0_%uglygep42           , caxpy__0_%29                  ) %29 = icmp ult i64 %28, %uglygep42
+(caxpy__0_%27                  , caxpy__0_%mul                 ) %mul = shl nuw nsw i64 %27, 3
+(caxpy__0_%mul                 , caxpy__0_%28                  ) %28 = add i64 %mul, %uglygep42
+(caxpy__0_%28                  , caxpy__0_%29                  ) %29 = icmp ult i64 %28, %uglygep42
+(caxpy__0_%29                  , caxpy__0_%33                  ) %33 = or i1 %29, %32
+(caxpy__0_%30                  , caxpy__0_%mul44               ) %mul44 = shl nuw nsw i64 %30, 3
+(caxpy__0_%mul44               , caxpy__0_%31                  ) %31 = add i64 %mul44, %cy43
+(caxpy__0_%31                  , caxpy__0_%32                  ) %32 = icmp ult i64 %31, %cy43
+(caxpy__0_%32                  , caxpy__0_%33                  ) %33 = or i1 %29, %32
+(caxpy__0_%33                  , caxpy__0_%L.LB1_318.preheader6) br i1 %33, label %L.LB1_318.preheader61, label %vector.ph
+(caxpy__0_%33                  , caxpy__0_%vector.ph           ) br i1 %33, label %L.LB1_318.preheader61, label %vector.ph
+(caxpy__0_%vector.ph           , caxpy__0_%34                  ) %34 = add i32 %19, 2
+(caxpy__0_%vector.ph           , caxpy__0_%broadcast.splatinser) %broadcast.splatinsert54 = insertelement <4 x float> undef, float %.unpack, i32 0
+(caxpy__0_%vector.ph           , caxpy__0_%broadcast.splatinser) %broadcast.splatinsert56 = insertelement <4 x float> undef, float %.unpack3, i32 0
+(caxpy__0_%34                  , caxpy__0_%35                  ) %35 = and i32 %34, 3
+(caxpy__0_%35                  , caxpy__0_%n.mod.vf            ) %n.mod.vf = zext i32 %35 to i64
+(caxpy__0_%35                  , caxpy__0_%cmp.n               ) %cmp.n = icmp eq i32 %35, 0
+(caxpy__0_%n.mod.vf            , caxpy__0_%n.vec               ) %n.vec = sub nsw i64 %22, %n.mod.vf
+(caxpy__0_%n.vec               , caxpy__0_%ind.end             ) %ind.end = add nsw i64 %n.vec, 1
+(caxpy__0_%n.vec               , caxpy__0_%cast.crd            ) %cast.crd = trunc i64 %n.vec to i32
+(caxpy__0_%n.vec               , caxpy__0_%52                  ) %52 = icmp eq i64 %index.next, %n.vec
+(caxpy__0_%ind.end             , caxpy__0_%vector.body         ) br label %vector.body
+(caxpy__0_%ind.end             , caxpy__0_%indvars.iv.ph       ) %indvars.iv.ph = phi i64 [ 1, %vector.scevcheck ], [ 1, %L.LB1_318.preheader ], [ %ind.end, %middle.block ]
+(caxpy__0_%cast.crd            , caxpy__0_%ind.end48           ) %ind.end48 = sub i32 %12, %cast.crd
+(caxpy__0_%ind.end48           , caxpy__0_%vector.body         ) br label %vector.body
+(caxpy__0_%ind.end48           , caxpy__0_%.dY0001_320.0.ph    ) %.dY0001_320.0.ph = phi i32 [ %12, %vector.scevcheck ], [ %12, %L.LB1_318.preheader ], [ %ind.end48, %middle.block ]
+(caxpy__0_%broadcast.splatinser, caxpy__0_%broadcast.splat55   ) %broadcast.splat55 = shufflevector <4 x float> %broadcast.splatinsert54, <4 x float> undef, <4 x i32> zeroinitializer
+(caxpy__0_%broadcast.splat55   , caxpy__0_%vector.body         ) br label %vector.body
+(caxpy__0_%broadcast.splat55   , caxpy__0_%38                  ) %38 = fmul <4 x float> %broadcast.splat55, %strided.vec
+(caxpy__0_%broadcast.splat55   , caxpy__0_%39                  ) %39 = fmul <4 x float> %broadcast.splat55, %strided.vec53
+(caxpy__0_%broadcast.splatinser, caxpy__0_%broadcast.splat57   ) %broadcast.splat57 = shufflevector <4 x float> %broadcast.splatinsert56, <4 x float> undef, <4 x i32> zeroinitializer
+(caxpy__0_%broadcast.splat57   , caxpy__0_%vector.body         ) br label %vector.body
+(caxpy__0_%broadcast.splat57   , caxpy__0_%40                  ) %40 = fmul <4 x float> %broadcast.splat57, %strided.vec
+(caxpy__0_%broadcast.splat57   , caxpy__0_%41                  ) %41 = fmul <4 x float> %broadcast.splat57, %strided.vec53
+(caxpy__0_%vector.body         , caxpy__0_%index               ) %index = phi i64 [ 0, %vector.ph ], [ %index.next, %vector.body ]
+(caxpy__0_%index               , caxpy__0_%offset.idx          ) %offset.idx = or i64 %index, 1
+(caxpy__0_%index               , caxpy__0_%index.next          ) %index.next = add i64 %index, 4
+(caxpy__0_%index.next          , caxpy__0_%index               ) %index = phi i64 [ 0, %vector.ph ], [ %index.next, %vector.body ]
+(caxpy__0_%index.next          , caxpy__0_%52                  ) %52 = icmp eq i64 %index.next, %n.vec
+(caxpy__0_%offset.idx          , caxpy__0_%36                  ) %36 = getelementptr i64, i64* %15, i64 %offset.idx
+(caxpy__0_%offset.idx          , caxpy__0_%44                  ) %44 = getelementptr i64, i64* %16, i64 %offset.idx
+(caxpy__0_%36                  , caxpy__0_%37                  ) %37 = bitcast i64* %36 to <8 x float>*
+(caxpy__0_%37                  , caxpy__0_%wide.vec            ) %wide.vec = load <8 x float>, <8 x float>* %37, align 1
+(caxpy__0_%wide.vec            , caxpy__0_%strided.vec         ) %strided.vec = shufflevector <8 x float> %wide.vec, <8 x float> undef, <4 x i32> <i32 0, i32 2, i32 4, i32 6>
+(caxpy__0_%wide.vec            , caxpy__0_%strided.vec53       ) %strided.vec53 = shufflevector <8 x float> %wide.vec, <8 x float> undef, <4 x i32> <i32 1, i32 3, i32 5, i32 7>
+(caxpy__0_%strided.vec         , caxpy__0_%38                  ) %38 = fmul <4 x float> %broadcast.splat55, %strided.vec
+(caxpy__0_%strided.vec         , caxpy__0_%40                  ) %40 = fmul <4 x float> %broadcast.splat57, %strided.vec
+(caxpy__0_%strided.vec53       , caxpy__0_%39                  ) %39 = fmul <4 x float> %broadcast.splat55, %strided.vec53
+(caxpy__0_%strided.vec53       , caxpy__0_%41                  ) %41 = fmul <4 x float> %broadcast.splat57, %strided.vec53
+(caxpy__0_%38                  , caxpy__0_%42                  ) %42 = fsub <4 x float> %38, %41
+(caxpy__0_%39                  , caxpy__0_%43                  ) %43 = fadd <4 x float> %40, %39
+(caxpy__0_%40                  , caxpy__0_%43                  ) %43 = fadd <4 x float> %40, %39
+(caxpy__0_%41                  , caxpy__0_%42                  ) %42 = fsub <4 x float> %38, %41
+(caxpy__0_%42                  , caxpy__0_%48                  ) %48 = fadd <4 x float> %strided.vec59, %42
+(caxpy__0_%43                  , caxpy__0_%49                  ) %49 = fadd <4 x float> %43, %strided.vec60
+(caxpy__0_%44                  , caxpy__0_%45                  ) %45 = bitcast i64* %44 to <{ float, float }>*
+(caxpy__0_%44                  , caxpy__0_%46                  ) %46 = bitcast i64* %44 to <8 x float>*
+(caxpy__0_%45                  , caxpy__0_%47                  ) %47 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %45, i64 0, i32 1
+(caxpy__0_%46                  , caxpy__0_%wide.vec58          ) %wide.vec58 = load <8 x float>, <8 x float>* %46, align 1
+(caxpy__0_%wide.vec58          , caxpy__0_%strided.vec59       ) %strided.vec59 = shufflevector <8 x float> %wide.vec58, <8 x float> undef, <4 x i32> <i32 0, i32 2, i32 4, i32 6>
+(caxpy__0_%wide.vec58          , caxpy__0_%strided.vec60       ) %strided.vec60 = shufflevector <8 x float> %wide.vec58, <8 x float> undef, <4 x i32> <i32 1, i32 3, i32 5, i32 7>
+(caxpy__0_%strided.vec59       , caxpy__0_%48                  ) %48 = fadd <4 x float> %strided.vec59, %42
+(caxpy__0_%strided.vec60       , caxpy__0_%49                  ) %49 = fadd <4 x float> %43, %strided.vec60
+(caxpy__0_%47                  , caxpy__0_%50                  ) %50 = getelementptr float, float* %47, i64 -1
+(caxpy__0_%48                  , caxpy__0_%interleaved.vec     ) %interleaved.vec = shufflevector <4 x float> %48, <4 x float> %49, <8 x i32> <i32 0, i32 4, i32 1, i32 5, i32 2, i32 6, i32 3, i32 7>
+(caxpy__0_%49                  , caxpy__0_%interleaved.vec     ) %interleaved.vec = shufflevector <4 x float> %48, <4 x float> %49, <8 x i32> <i32 0, i32 4, i32 1, i32 5, i32 2, i32 6, i32 3, i32 7>
+(caxpy__0_%50                  , caxpy__0_%51                  ) %51 = bitcast float* %50 to <8 x float>*
+(caxpy__0_%interleaved.vec     , caxpy__0_%51                  ) store <8 x float> %interleaved.vec, <8 x float>* %51, align 4
+(caxpy__0_%52                  , caxpy__0_%middle.block        ) br i1 %52, label %middle.block, label %vector.body
+(caxpy__0_%52                  , caxpy__0_%vector.body         ) br i1 %52, label %middle.block, label %vector.body
+(caxpy__0_%middle.block        , caxpy__0_%cmp.n               ) %cmp.n = icmp eq i32 %35, 0
+(caxpy__0_%cmp.n               , caxpy__0_%L.LB1_310           ) br i1 %cmp.n, label %L.LB1_310, label %L.LB1_318.preheader61
+(caxpy__0_%cmp.n               , caxpy__0_%L.LB1_318.preheader6) br i1 %cmp.n, label %L.LB1_310, label %L.LB1_318.preheader61
+(caxpy__0_%indvars.iv.ph       , caxpy__0_%L.LB1_318           ) br label %L.LB1_318
+(caxpy__0_%indvars.iv.ph       , caxpy__0_%indvars.iv          ) %indvars.iv = phi i64 [ %indvars.iv.next, %L.LB1_318 ], [ %indvars.iv.ph, %L.LB1_318.preheader61 ]
+(caxpy__0_%.dY0001_320.0.ph    , caxpy__0_%L.LB1_318           ) br label %L.LB1_318
+(caxpy__0_%.dY0001_320.0.ph    , caxpy__0_%.dY0001_320.0       ) %.dY0001_320.0 = phi i32 [ %65, %L.LB1_318 ], [ %.dY0001_320.0.ph, %L.LB1_318.preheader61 ]
+(caxpy__0_%L.LB1_318           , caxpy__0_%indvars.iv          ) %indvars.iv = phi i64 [ %indvars.iv.next, %L.LB1_318 ], [ %indvars.iv.ph, %L.LB1_318.preheader61 ]
+(caxpy__0_%L.LB1_318           , caxpy__0_%.dY0001_320.0       ) %.dY0001_320.0 = phi i32 [ %65, %L.LB1_318 ], [ %.dY0001_320.0.ph, %L.LB1_318.preheader61 ]
+(caxpy__0_%indvars.iv          , caxpy__0_%53                  ) %53 = getelementptr i64, i64* %15, i64 %indvars.iv
+(caxpy__0_%indvars.iv          , caxpy__0_%61                  ) %61 = getelementptr i64, i64* %16, i64 %indvars.iv
+(caxpy__0_%indvars.iv          , caxpy__0_%indvars.iv.next     ) %indvars.iv.next = add nuw nsw i64 %indvars.iv, 1
+(caxpy__0_%indvars.iv.next     , caxpy__0_%indvars.iv          ) %indvars.iv = phi i64 [ %indvars.iv.next, %L.LB1_318 ], [ %indvars.iv.ph, %L.LB1_318.preheader61 ]
+(caxpy__0_%.dY0001_320.0       , caxpy__0_%65                  ) %65 = add nsw i32 %.dY0001_320.0, -1
+(caxpy__0_%.dY0001_320.0       , caxpy__0_%66                  ) %66 = icmp sgt i32 %.dY0001_320.0, 1
+(caxpy__0_%65                  , caxpy__0_%.dY0001_320.0       ) %.dY0001_320.0 = phi i32 [ %65, %L.LB1_318 ], [ %.dY0001_320.0.ph, %L.LB1_318.preheader61 ]
+(caxpy__0_%53                  , caxpy__0_%54                  ) %54 = bitcast i64* %53 to <{ float, float }>*
+(caxpy__0_%53                  , caxpy__0_%.elt4               ) %.elt4 = bitcast i64* %53 to float*
+(caxpy__0_%54                  , caxpy__0_%.elt6               ) %.elt6 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %54, i64 0, i32 1
+(caxpy__0_%.elt4               , caxpy__0_%.unpack5            ) %.unpack5 = load float, float* %.elt4, align 1
+(caxpy__0_%.unpack5            , caxpy__0_%55                  ) %55 = fmul float %.unpack, %.unpack5
+(caxpy__0_%.unpack5            , caxpy__0_%57                  ) %57 = fmul float %.unpack3, %.unpack5
+(caxpy__0_%.elt6               , caxpy__0_%.unpack7            ) %.unpack7 = load float, float* %.elt6, align 1
+(caxpy__0_%.unpack7            , caxpy__0_%56                  ) %56 = fmul float %.unpack, %.unpack7
+(caxpy__0_%.unpack7            , caxpy__0_%58                  ) %58 = fmul float %.unpack3, %.unpack7
+(caxpy__0_%55                  , caxpy__0_%59                  ) %59 = fsub float %55, %58
+(caxpy__0_%56                  , caxpy__0_%60                  ) %60 = fadd float %57, %56
+(caxpy__0_%57                  , caxpy__0_%60                  ) %60 = fadd float %57, %56
+(caxpy__0_%58                  , caxpy__0_%59                  ) %59 = fsub float %55, %58
+(caxpy__0_%59                  , caxpy__0_%63                  ) %63 = fadd float %.unpack9, %59
+(caxpy__0_%60                  , caxpy__0_%64                  ) %64 = fadd float %60, %.unpack11
+(caxpy__0_%61                  , caxpy__0_%62                  ) %62 = bitcast i64* %61 to <{ float, float }>*
+(caxpy__0_%61                  , caxpy__0_%.elt8               ) %.elt8 = bitcast i64* %61 to float*
+(caxpy__0_%62                  , caxpy__0_%.elt10              ) %.elt10 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %62, i64 0, i32 1
+(caxpy__0_%.elt8               , caxpy__0_%.unpack9            ) %.unpack9 = load float, float* %.elt8, align 1
+(caxpy__0_%.unpack9            , caxpy__0_%63                  ) %63 = fadd float %.unpack9, %59
+(caxpy__0_%.elt10              , caxpy__0_%.unpack11           ) %.unpack11 = load float, float* %.elt10, align 1
+(caxpy__0_%.unpack11           , caxpy__0_%64                  ) %64 = fadd float %60, %.unpack11
+(caxpy__0_%63                  , caxpy__0_%.elt8               ) store float %63, float* %.elt8, align 4
+(caxpy__0_%64                  , caxpy__0_%.elt10              ) store float %64, float* %.elt10, align 4
+(caxpy__0_%66                  , caxpy__0_%L.LB1_318           ) br i1 %66, label %L.LB1_318, label %L.LB1_310
+(caxpy__0_%66                  , caxpy__0_%L.LB1_310           ) br i1 %66, label %L.LB1_318, label %L.LB1_310
+(caxpy__0_%67                  , caxpy__0_%L.LB1_322thread-pre-) br i1 %67, label %L.LB1_322thread-pre-split, label %L.LB1_355
+(caxpy__0_%67                  , caxpy__0_%L.LB1_355           ) br i1 %67, label %L.LB1_322thread-pre-split, label %L.LB1_355
+(caxpy__0_%L.LB1_355           , caxpy__0_%68                  ) %68 = load i32, i32* %0, align 4
+(caxpy__0_%68                  , caxpy__0_%69                  ) %69 = sub nsw i32 1, %68
+(caxpy__0_%68                  , caxpy__0_%.pr                 ) %.pr = phi i32 [ %.pr.pr, %L.LB1_322thread-pre-split ], [ %68, %L.LB1_355 ]
+(caxpy__0_%69                  , caxpy__0_%70                  ) %70 = mul nsw i32 %69, %7
+(caxpy__0_%70                  , caxpy__0_%71                  ) %71 = add nsw i32 %70, 1
+(caxpy__0_%71                  , caxpy__0_%phitmp              ) %phitmp = sext i32 %71 to i64
+(caxpy__0_%phitmp              , caxpy__0_%L.LB1_322           ) br label %L.LB1_322
+(caxpy__0_%phitmp              , caxpy__0_%ix_307.0            ) %ix_307.0 = phi i64 [ 1, %L.LB1_322thread-pre-split ], [ %phitmp, %L.LB1_355 ]
+(caxpy__0_%L.LB1_322           , caxpy__0_%.pr                 ) %.pr = phi i32 [ %.pr.pr, %L.LB1_322thread-pre-split ], [ %68, %L.LB1_355 ]
+(caxpy__0_%L.LB1_322           , caxpy__0_%ix_307.0            ) %ix_307.0 = phi i64 [ 1, %L.LB1_322thread-pre-split ], [ %phitmp, %L.LB1_355 ]
+(caxpy__0_%L.LB1_322           , caxpy__0_%72                  ) %72 = bitcast i64* %incy to i32*
+(caxpy__0_%.pr.pr              , caxpy__0_%L.LB1_322           ) br label %L.LB1_322
+(caxpy__0_%.pr.pr              , caxpy__0_%.pr                 ) %.pr = phi i32 [ %.pr.pr, %L.LB1_322thread-pre-split ], [ %68, %L.LB1_355 ]
+(caxpy__0_%.pr                 , caxpy__0_%75                  ) %75 = sub nsw i32 1, %.pr
+(caxpy__0_%.pr                 , caxpy__0_%78                  ) %78 = icmp slt i32 %.pr, 1
+(caxpy__0_%.pr                 , caxpy__0_%.dY0002_326.0       ) %.dY0002_326.0 = phi i32 [ %.pr, %L.LB1_324.preheader ], [ %96, %L.LB1_324 ]
+(caxpy__0_%ix_307.0            , caxpy__0_%indvars.iv33        ) %indvars.iv33 = phi i64 [ %ix_307.0, %L.LB1_324.preheader ], [ %indvars.iv.next34, %L.LB1_324 ]
+(caxpy__0_%72                  , caxpy__0_%73                  ) %73 = load i32, i32* %72, align 4
+(caxpy__0_%73                  , caxpy__0_%74                  ) %74 = icmp sgt i32 %73, -1
+(caxpy__0_%73                  , caxpy__0_%76                  ) %76 = mul nsw i32 %75, %73
+(caxpy__0_%73                  , caxpy__0_%83                  ) %83 = sext i32 %73 to i64
+(caxpy__0_%74                  , caxpy__0_%L.LB1_323           ) br i1 %74, label %L.LB1_323, label %L.LB1_356
+(caxpy__0_%74                  , caxpy__0_%L.LB1_356           ) br i1 %74, label %L.LB1_323, label %L.LB1_356
+(caxpy__0_%L.LB1_323           , caxpy__0_%iy_308.0            ) %iy_308.0 = phi i64 [ %phitmp37, %L.LB1_356 ], [ 1, %L.LB1_322 ]
+(caxpy__0_%L.LB1_323           , caxpy__0_%78                  ) %78 = icmp slt i32 %.pr, 1
+(caxpy__0_%L.LB1_356           , caxpy__0_%75                  ) %75 = sub nsw i32 1, %.pr
+(caxpy__0_%75                  , caxpy__0_%76                  ) %76 = mul nsw i32 %75, %73
+(caxpy__0_%76                  , caxpy__0_%77                  ) %77 = add nsw i32 %76, 1
+(caxpy__0_%77                  , caxpy__0_%phitmp37            ) %phitmp37 = sext i32 %77 to i64
+(caxpy__0_%phitmp37            , caxpy__0_%L.LB1_323           ) br label %L.LB1_323
+(caxpy__0_%phitmp37            , caxpy__0_%iy_308.0            ) %iy_308.0 = phi i64 [ %phitmp37, %L.LB1_356 ], [ 1, %L.LB1_322 ]
+(caxpy__0_%iy_308.0            , caxpy__0_%indvars.iv35        ) %indvars.iv35 = phi i64 [ %iy_308.0, %L.LB1_324.preheader ], [ %indvars.iv.next36, %L.LB1_324 ]
+(caxpy__0_%78                  , caxpy__0_%L.LB1_310           ) br i1 %78, label %L.LB1_310, label %L.LB1_324.preheader
+(caxpy__0_%78                  , caxpy__0_%L.LB1_324.preheader ) br i1 %78, label %L.LB1_310, label %L.LB1_324.preheader
+(caxpy__0_%L.LB1_324.preheader , caxpy__0_%79                  ) %79 = bitcast i64* %ca to <{ float, float }>*
+(caxpy__0_%L.LB1_324.preheader , caxpy__0_%.elt15              ) %.elt15 = bitcast i64* %ca to float*
+(caxpy__0_%L.LB1_324.preheader , caxpy__0_%80                  ) %80 = getelementptr i64, i64* %cx, i64 -1
+(caxpy__0_%L.LB1_324.preheader , caxpy__0_%81                  ) %81 = getelementptr i64, i64* %cy, i64 -1
+(caxpy__0_%L.LB1_324.preheader , caxpy__0_%82                  ) %82 = sext i32 %7 to i64
+(caxpy__0_%L.LB1_324.preheader , caxpy__0_%83                  ) %83 = sext i32 %73 to i64
+(caxpy__0_%79                  , caxpy__0_%.elt17              ) %.elt17 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %79, i64 0, i32 1
+(caxpy__0_%.elt15              , caxpy__0_%.unpack16           ) %.unpack16 = load float, float* %.elt15, align 1
+(caxpy__0_%.unpack16           , caxpy__0_%L.LB1_324           ) br label %L.LB1_324
+(caxpy__0_%.unpack16           , caxpy__0_%86                  ) %86 = fmul float %.unpack16, %.unpack20
+(caxpy__0_%.unpack16           , caxpy__0_%87                  ) %87 = fmul float %.unpack16, %.unpack22
+(caxpy__0_%.elt17              , caxpy__0_%.unpack18           ) %.unpack18 = load float, float* %.elt17, align 1
+(caxpy__0_%.unpack18           , caxpy__0_%L.LB1_324           ) br label %L.LB1_324
+(caxpy__0_%.unpack18           , caxpy__0_%88                  ) %88 = fmul float %.unpack18, %.unpack20
+(caxpy__0_%.unpack18           , caxpy__0_%89                  ) %89 = fmul float %.unpack18, %.unpack22
+(caxpy__0_%80                  , caxpy__0_%L.LB1_324           ) br label %L.LB1_324
+(caxpy__0_%80                  , caxpy__0_%84                  ) %84 = getelementptr i64, i64* %80, i64 %indvars.iv33
+(caxpy__0_%81                  , caxpy__0_%L.LB1_324           ) br label %L.LB1_324
+(caxpy__0_%81                  , caxpy__0_%92                  ) %92 = getelementptr i64, i64* %81, i64 %indvars.iv35
+(caxpy__0_%82                  , caxpy__0_%L.LB1_324           ) br label %L.LB1_324
+(caxpy__0_%82                  , caxpy__0_%indvars.iv.next34   ) %indvars.iv.next34 = add i64 %indvars.iv33, %82
+(caxpy__0_%83                  , caxpy__0_%L.LB1_324           ) br label %L.LB1_324
+(caxpy__0_%83                  , caxpy__0_%indvars.iv.next36   ) %indvars.iv.next36 = add i64 %indvars.iv35, %83
+(caxpy__0_%L.LB1_324           , caxpy__0_%indvars.iv35        ) %indvars.iv35 = phi i64 [ %iy_308.0, %L.LB1_324.preheader ], [ %indvars.iv.next36, %L.LB1_324 ]
+(caxpy__0_%L.LB1_324           , caxpy__0_%indvars.iv33        ) %indvars.iv33 = phi i64 [ %ix_307.0, %L.LB1_324.preheader ], [ %indvars.iv.next34, %L.LB1_324 ]
+(caxpy__0_%L.LB1_324           , caxpy__0_%.dY0002_326.0       ) %.dY0002_326.0 = phi i32 [ %.pr, %L.LB1_324.preheader ], [ %96, %L.LB1_324 ]
+(caxpy__0_%indvars.iv35        , caxpy__0_%92                  ) %92 = getelementptr i64, i64* %81, i64 %indvars.iv35
+(caxpy__0_%indvars.iv35        , caxpy__0_%indvars.iv.next36   ) %indvars.iv.next36 = add i64 %indvars.iv35, %83
+(caxpy__0_%indvars.iv.next36   , caxpy__0_%indvars.iv35        ) %indvars.iv35 = phi i64 [ %iy_308.0, %L.LB1_324.preheader ], [ %indvars.iv.next36, %L.LB1_324 ]
+(caxpy__0_%indvars.iv33        , caxpy__0_%84                  ) %84 = getelementptr i64, i64* %80, i64 %indvars.iv33
+(caxpy__0_%indvars.iv33        , caxpy__0_%indvars.iv.next34   ) %indvars.iv.next34 = add i64 %indvars.iv33, %82
+(caxpy__0_%indvars.iv.next34   , caxpy__0_%indvars.iv33        ) %indvars.iv33 = phi i64 [ %ix_307.0, %L.LB1_324.preheader ], [ %indvars.iv.next34, %L.LB1_324 ]
+(caxpy__0_%.dY0002_326.0       , caxpy__0_%96                  ) %96 = add nsw i32 %.dY0002_326.0, -1
+(caxpy__0_%.dY0002_326.0       , caxpy__0_%97                  ) %97 = icmp sgt i32 %.dY0002_326.0, 1
+(caxpy__0_%96                  , caxpy__0_%.dY0002_326.0       ) %.dY0002_326.0 = phi i32 [ %.pr, %L.LB1_324.preheader ], [ %96, %L.LB1_324 ]
+(caxpy__0_%84                  , caxpy__0_%85                  ) %85 = bitcast i64* %84 to <{ float, float }>*
+(caxpy__0_%84                  , caxpy__0_%.elt19              ) %.elt19 = bitcast i64* %84 to float*
+(caxpy__0_%85                  , caxpy__0_%.elt21              ) %.elt21 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %85, i64 0, i32 1
+(caxpy__0_%.elt19              , caxpy__0_%.unpack20           ) %.unpack20 = load float, float* %.elt19, align 1
+(caxpy__0_%.unpack20           , caxpy__0_%86                  ) %86 = fmul float %.unpack16, %.unpack20
+(caxpy__0_%.unpack20           , caxpy__0_%88                  ) %88 = fmul float %.unpack18, %.unpack20
+(caxpy__0_%.elt21              , caxpy__0_%.unpack22           ) %.unpack22 = load float, float* %.elt21, align 1
+(caxpy__0_%.unpack22           , caxpy__0_%87                  ) %87 = fmul float %.unpack16, %.unpack22
+(caxpy__0_%.unpack22           , caxpy__0_%89                  ) %89 = fmul float %.unpack18, %.unpack22
+(caxpy__0_%86                  , caxpy__0_%90                  ) %90 = fsub float %86, %89
+(caxpy__0_%87                  , caxpy__0_%91                  ) %91 = fadd float %88, %87
+(caxpy__0_%88                  , caxpy__0_%91                  ) %91 = fadd float %88, %87
+(caxpy__0_%89                  , caxpy__0_%90                  ) %90 = fsub float %86, %89
+(caxpy__0_%90                  , caxpy__0_%94                  ) %94 = fadd float %.unpack24, %90
+(caxpy__0_%91                  , caxpy__0_%95                  ) %95 = fadd float %91, %.unpack26
+(caxpy__0_%92                  , caxpy__0_%93                  ) %93 = bitcast i64* %92 to <{ float, float }>*
+(caxpy__0_%92                  , caxpy__0_%.elt23              ) %.elt23 = bitcast i64* %92 to float*
+(caxpy__0_%93                  , caxpy__0_%.elt25              ) %.elt25 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %93, i64 0, i32 1
+(caxpy__0_%.elt23              , caxpy__0_%.unpack24           ) %.unpack24 = load float, float* %.elt23, align 1
+(caxpy__0_%.unpack24           , caxpy__0_%94                  ) %94 = fadd float %.unpack24, %90
+(caxpy__0_%.elt25              , caxpy__0_%.unpack26           ) %.unpack26 = load float, float* %.elt25, align 1
+(caxpy__0_%.unpack26           , caxpy__0_%95                  ) %95 = fadd float %91, %.unpack26
+(caxpy__0_%94                  , caxpy__0_%.elt23              ) store float %94, float* %.elt23, align 4
+(caxpy__0_%95                  , caxpy__0_%.elt25              ) store float %95, float* %.elt25, align 4
+(caxpy__0_%97                  , caxpy__0_%L.LB1_324           ) br i1 %97, label %L.LB1_324, label %L.LB1_310
+(caxpy__0_%97                  , caxpy__0_%L.LB1_310           ) br i1 %97, label %L.LB1_324, label %L.LB1_310
+
+Data flow edges: 
+#edges: 227 (71.15%)
+--------------------------------------------------------------------------------
+(caxpy__0_%n                   , caxpy__0_%0                   ) {'stmt': '%0 = bitcast i64* %n to i32*', 'flow': 'data'}
+(caxpy__0_%ca                  , caxpy__0_%3                   ) {'stmt': '%3 = bitcast i64* %ca to i8*', 'flow': 'data'}
+(caxpy__0_%ca                  , caxpy__0_%14                  ) {'stmt': '%14 = bitcast i64* %ca to <{ float, float }>*', 'flow': 'data'}
+(caxpy__0_%ca                  , caxpy__0_%.elt                ) {'stmt': '%.elt = bitcast i64* %ca to float*', 'flow': 'data'}
+(caxpy__0_%ca                  , caxpy__0_%79                  ) {'stmt': '%79 = bitcast i64* %ca to <{ float, float }>*', 'flow': 'data'}
+(caxpy__0_%ca                  , caxpy__0_%.elt15              ) {'stmt': '%.elt15 = bitcast i64* %ca to float*', 'flow': 'data'}
+(caxpy__0_%cx                  , caxpy__0_%15                  ) {'stmt': '%15 = getelementptr i64, i64* %cx, i64 -1', 'flow': 'data'}
+(caxpy__0_%cx                  , caxpy__0_%80                  ) {'stmt': '%80 = getelementptr i64, i64* %cx, i64 -1', 'flow': 'data'}
+(caxpy__0_%incx                , caxpy__0_%6                   ) {'stmt': '%6 = bitcast i64* %incx to i32*', 'flow': 'data'}
+(caxpy__0_%cy                  , caxpy__0_%cy43                ) {'stmt': '%cy43 = ptrtoint i64* %cy to i64', 'flow': 'data'}
+(caxpy__0_%cy                  , caxpy__0_%cy41                ) {'stmt': '%cy41 = bitcast i64* %cy to i8*', 'flow': 'data'}
+(caxpy__0_%cy                  , caxpy__0_%16                  ) {'stmt': '%16 = getelementptr i64, i64* %cy, i64 -1', 'flow': 'data'}
+(caxpy__0_%cy                  , caxpy__0_%81                  ) {'stmt': '%81 = getelementptr i64, i64* %cy, i64 -1', 'flow': 'data'}
+(caxpy__0_%incy                , caxpy__0_%9                   ) {'stmt': '%9 = bitcast i64* %incy to i32*', 'flow': 'data'}
+(caxpy__0_%incy                , caxpy__0_%72                  ) {'stmt': '%72 = bitcast i64* %incy to i32*', 'flow': 'data'}
+(caxpy__0_%0                   , caxpy__0_%1                   ) {'stmt': '%1 = load i32, i32* %0, align 4', 'flow': 'data'}
+(caxpy__0_%0                   , caxpy__0_%12                  ) {'stmt': '%12 = load i32, i32* %0, align 4', 'flow': 'data'}
+(caxpy__0_%0                   , caxpy__0_%68                  ) {'stmt': '%68 = load i32, i32* %0, align 4', 'flow': 'data'}
+(caxpy__0_%0                   , caxpy__0_%.pr.pr              ) {'stmt': '%.pr.pr = load i32, i32* %0, align 4', 'flow': 'data'}
+(caxpy__0_%cy43                , caxpy__0_%31                  ) {'stmt': '%31 = add i64 %mul44, %cy43', 'flow': 'data'}
+(caxpy__0_%cy43                , caxpy__0_%32                  ) {'stmt': '%32 = icmp ult i64 %31, %cy43', 'flow': 'data'}
+(caxpy__0_%cy41                , caxpy__0_%uglygep             ) {'stmt': '%uglygep = getelementptr i8, i8* %cy41, i64 4', 'flow': 'data'}
+(caxpy__0_%1                   , caxpy__0_%2                   ) {'stmt': '%2 = icmp slt i32 %1, 1', 'flow': 'data'}
+(caxpy__0_%3                   , caxpy__0_%4                   ) {'stmt': '%4 = tail call float (i8*, ...) bitcast (float (...)* @scabs1_ to float (i8*, ...)*)(i8* %3)', 'flow': 'data'}
+(caxpy__0_%4                   , caxpy__0_%5                   ) {'stmt': '%5 = fcmp oeq float %4, 0.000000e+00', 'flow': 'data'}
+(caxpy__0_%6                   , caxpy__0_%7                   ) {'stmt': '%7 = load i32, i32* %6, align 4', 'flow': 'data'}
+(caxpy__0_%7                   , caxpy__0_%8                   ) {'stmt': '%8 = icmp eq i32 %7, 1', 'flow': 'data'}
+(caxpy__0_%7                   , caxpy__0_%67                  ) {'stmt': '%67 = icmp sgt i32 %7, -1', 'flow': 'data'}
+(caxpy__0_%7                   , caxpy__0_%70                  ) {'stmt': '%70 = mul nsw i32 %69, %7', 'flow': 'data'}
+(caxpy__0_%7                   , caxpy__0_%82                  ) {'stmt': '%82 = sext i32 %7 to i64', 'flow': 'data'}
+(caxpy__0_%9                   , caxpy__0_%10                  ) {'stmt': '%10 = load i32, i32* %9, align 4', 'flow': 'data'}
+(caxpy__0_%10                  , caxpy__0_%11                  ) {'stmt': '%11 = icmp eq i32 %10, 1', 'flow': 'data'}
+(caxpy__0_%12                  , caxpy__0_%13                  ) {'stmt': '%13 = icmp slt i32 %12, 1', 'flow': 'data'}
+(caxpy__0_%12                  , caxpy__0_%17                  ) {'stmt': '%17 = xor i32 %12, -1', 'flow': 'data'}
+(caxpy__0_%12                  , caxpy__0_%19                  ) {'stmt': '%19 = add i32 %12, %smax', 'flow': 'data'}
+(caxpy__0_%12                  , caxpy__0_%23                  ) {'stmt': '%23 = xor i32 %12, -1', 'flow': 'data'}
+(caxpy__0_%12                  , caxpy__0_%25                  ) {'stmt': '%25 = add i32 %12, %smax40', 'flow': 'data'}
+(caxpy__0_%12                  , caxpy__0_%ind.end48           ) {'stmt': '%ind.end48 = sub i32 %12, %cast.crd', 'flow': 'data'}
+(caxpy__0_%12                  , caxpy__0_%.dY0001_320.0.ph    ) {'stmt': '%.dY0001_320.0.ph = phi i32 [ %12, %vector.scevcheck ], [ %12, %L.LB1_318.preheader ], [ %ind.end48, %middle.block ]', 'flow': 'data'}
+(caxpy__0_%12                  , caxpy__0_%.dY0001_320.0.ph    ) {'stmt': '%.dY0001_320.0.ph = phi i32 [ %12, %vector.scevcheck ], [ %12, %L.LB1_318.preheader ], [ %ind.end48, %middle.block ]', 'flow': 'data'}
+(caxpy__0_%14                  , caxpy__0_%.elt2               ) {'stmt': '%.elt2 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %14, i64 0, i32 1', 'flow': 'data'}
+(caxpy__0_%.elt                , caxpy__0_%.unpack             ) {'stmt': '%.unpack = load float, float* %.elt, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack             , caxpy__0_%broadcast.splatinser) {'stmt': '%broadcast.splatinsert54 = insertelement <4 x float> undef, float %.unpack, i32 0', 'flow': 'data'}
+(caxpy__0_%.unpack             , caxpy__0_%55                  ) {'stmt': '%55 = fmul float %.unpack, %.unpack5', 'flow': 'data'}
+(caxpy__0_%.unpack             , caxpy__0_%56                  ) {'stmt': '%56 = fmul float %.unpack, %.unpack7', 'flow': 'data'}
+(caxpy__0_%.elt2               , caxpy__0_%.unpack3            ) {'stmt': '%.unpack3 = load float, float* %.elt2, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack3            , caxpy__0_%broadcast.splatinser) {'stmt': '%broadcast.splatinsert56 = insertelement <4 x float> undef, float %.unpack3, i32 0', 'flow': 'data'}
+(caxpy__0_%.unpack3            , caxpy__0_%57                  ) {'stmt': '%57 = fmul float %.unpack3, %.unpack5', 'flow': 'data'}
+(caxpy__0_%.unpack3            , caxpy__0_%58                  ) {'stmt': '%58 = fmul float %.unpack3, %.unpack7', 'flow': 'data'}
+(caxpy__0_%15                  , caxpy__0_%36                  ) {'stmt': '%36 = getelementptr i64, i64* %15, i64 %offset.idx', 'flow': 'data'}
+(caxpy__0_%15                  , caxpy__0_%53                  ) {'stmt': '%53 = getelementptr i64, i64* %15, i64 %indvars.iv', 'flow': 'data'}
+(caxpy__0_%16                  , caxpy__0_%44                  ) {'stmt': '%44 = getelementptr i64, i64* %16, i64 %offset.idx', 'flow': 'data'}
+(caxpy__0_%16                  , caxpy__0_%61                  ) {'stmt': '%61 = getelementptr i64, i64* %16, i64 %indvars.iv', 'flow': 'data'}
+(caxpy__0_%17                  , caxpy__0_%18                  ) {'stmt': '%18 = icmp sgt i32 %17, -2', 'flow': 'data'}
+(caxpy__0_%17                  , caxpy__0_%smax                ) {'stmt': '%smax = select i1 %18, i32 %17, i32 -2', 'flow': 'data'}
+(caxpy__0_%18                  , caxpy__0_%smax                ) {'stmt': '%smax = select i1 %18, i32 %17, i32 -2', 'flow': 'data'}
+(caxpy__0_%smax                , caxpy__0_%19                  ) {'stmt': '%19 = add i32 %12, %smax', 'flow': 'data'}
+(caxpy__0_%19                  , caxpy__0_%20                  ) {'stmt': '%20 = add i32 %19, 1', 'flow': 'data'}
+(caxpy__0_%19                  , caxpy__0_%34                  ) {'stmt': '%34 = add i32 %19, 2', 'flow': 'data'}
+(caxpy__0_%20                  , caxpy__0_%21                  ) {'stmt': '%21 = zext i32 %20 to i64', 'flow': 'data'}
+(caxpy__0_%21                  , caxpy__0_%22                  ) {'stmt': '%22 = add nuw nsw i64 %21, 1', 'flow': 'data'}
+(caxpy__0_%22                  , caxpy__0_%min.iters.check     ) {'stmt': '%min.iters.check = icmp ult i64 %22, 4', 'flow': 'data'}
+(caxpy__0_%22                  , caxpy__0_%n.vec               ) {'stmt': '%n.vec = sub nsw i64 %22, %n.mod.vf', 'flow': 'data'}
+(caxpy__0_%23                  , caxpy__0_%24                  ) {'stmt': '%24 = icmp sgt i32 %23, -2', 'flow': 'data'}
+(caxpy__0_%23                  , caxpy__0_%smax40              ) {'stmt': '%smax40 = select i1 %24, i32 %23, i32 -2', 'flow': 'data'}
+(caxpy__0_%24                  , caxpy__0_%smax40              ) {'stmt': '%smax40 = select i1 %24, i32 %23, i32 -2', 'flow': 'data'}
+(caxpy__0_%smax40              , caxpy__0_%25                  ) {'stmt': '%25 = add i32 %12, %smax40', 'flow': 'data'}
+(caxpy__0_%25                  , caxpy__0_%26                  ) {'stmt': '%26 = add i32 %25, 1', 'flow': 'data'}
+(caxpy__0_%26                  , caxpy__0_%27                  ) {'stmt': '%27 = zext i32 %26 to i64', 'flow': 'data'}
+(caxpy__0_%26                  , caxpy__0_%30                  ) {'stmt': '%30 = zext i32 %26 to i64', 'flow': 'data'}
+(caxpy__0_%uglygep             , caxpy__0_%uglygep42           ) {'stmt': '%uglygep42 = ptrtoint i8* %uglygep to i64', 'flow': 'data'}
+(caxpy__0_%uglygep42           , caxpy__0_%28                  ) {'stmt': '%28 = add i64 %mul, %uglygep42', 'flow': 'data'}
+(caxpy__0_%uglygep42           , caxpy__0_%29                  ) {'stmt': '%29 = icmp ult i64 %28, %uglygep42', 'flow': 'data'}
+(caxpy__0_%27                  , caxpy__0_%mul                 ) {'stmt': '%mul = shl nuw nsw i64 %27, 3', 'flow': 'data'}
+(caxpy__0_%mul                 , caxpy__0_%28                  ) {'stmt': '%28 = add i64 %mul, %uglygep42', 'flow': 'data'}
+(caxpy__0_%28                  , caxpy__0_%29                  ) {'stmt': '%29 = icmp ult i64 %28, %uglygep42', 'flow': 'data'}
+(caxpy__0_%29                  , caxpy__0_%33                  ) {'stmt': '%33 = or i1 %29, %32', 'flow': 'data'}
+(caxpy__0_%30                  , caxpy__0_%mul44               ) {'stmt': '%mul44 = shl nuw nsw i64 %30, 3', 'flow': 'data'}
+(caxpy__0_%mul44               , caxpy__0_%31                  ) {'stmt': '%31 = add i64 %mul44, %cy43', 'flow': 'data'}
+(caxpy__0_%31                  , caxpy__0_%32                  ) {'stmt': '%32 = icmp ult i64 %31, %cy43', 'flow': 'data'}
+(caxpy__0_%32                  , caxpy__0_%33                  ) {'stmt': '%33 = or i1 %29, %32', 'flow': 'data'}
+(caxpy__0_%34                  , caxpy__0_%35                  ) {'stmt': '%35 = and i32 %34, 3', 'flow': 'data'}
+(caxpy__0_%35                  , caxpy__0_%n.mod.vf            ) {'stmt': '%n.mod.vf = zext i32 %35 to i64', 'flow': 'data'}
+(caxpy__0_%35                  , caxpy__0_%cmp.n               ) {'stmt': '%cmp.n = icmp eq i32 %35, 0', 'flow': 'data'}
+(caxpy__0_%n.mod.vf            , caxpy__0_%n.vec               ) {'stmt': '%n.vec = sub nsw i64 %22, %n.mod.vf', 'flow': 'data'}
+(caxpy__0_%n.vec               , caxpy__0_%ind.end             ) {'stmt': '%ind.end = add nsw i64 %n.vec, 1', 'flow': 'data'}
+(caxpy__0_%n.vec               , caxpy__0_%cast.crd            ) {'stmt': '%cast.crd = trunc i64 %n.vec to i32', 'flow': 'data'}
+(caxpy__0_%n.vec               , caxpy__0_%52                  ) {'stmt': '%52 = icmp eq i64 %index.next, %n.vec', 'flow': 'data'}
+(caxpy__0_%ind.end             , caxpy__0_%indvars.iv.ph       ) {'stmt': '%indvars.iv.ph = phi i64 [ 1, %vector.scevcheck ], [ 1, %L.LB1_318.preheader ], [ %ind.end, %middle.block ]', 'flow': 'data'}
+(caxpy__0_%cast.crd            , caxpy__0_%ind.end48           ) {'stmt': '%ind.end48 = sub i32 %12, %cast.crd', 'flow': 'data'}
+(caxpy__0_%ind.end48           , caxpy__0_%.dY0001_320.0.ph    ) {'stmt': '%.dY0001_320.0.ph = phi i32 [ %12, %vector.scevcheck ], [ %12, %L.LB1_318.preheader ], [ %ind.end48, %middle.block ]', 'flow': 'data'}
+(caxpy__0_%broadcast.splatinser, caxpy__0_%broadcast.splat55   ) {'stmt': '%broadcast.splat55 = shufflevector <4 x float> %broadcast.splatinsert54, <4 x float> undef, <4 x i32> zeroinitializer', 'flow': 'data'}
+(caxpy__0_%broadcast.splat55   , caxpy__0_%38                  ) {'stmt': '%38 = fmul <4 x float> %broadcast.splat55, %strided.vec', 'flow': 'data'}
+(caxpy__0_%broadcast.splat55   , caxpy__0_%39                  ) {'stmt': '%39 = fmul <4 x float> %broadcast.splat55, %strided.vec53', 'flow': 'data'}
+(caxpy__0_%broadcast.splatinser, caxpy__0_%broadcast.splat57   ) {'stmt': '%broadcast.splat57 = shufflevector <4 x float> %broadcast.splatinsert56, <4 x float> undef, <4 x i32> zeroinitializer', 'flow': 'data'}
+(caxpy__0_%broadcast.splat57   , caxpy__0_%40                  ) {'stmt': '%40 = fmul <4 x float> %broadcast.splat57, %strided.vec', 'flow': 'data'}
+(caxpy__0_%broadcast.splat57   , caxpy__0_%41                  ) {'stmt': '%41 = fmul <4 x float> %broadcast.splat57, %strided.vec53', 'flow': 'data'}
+(caxpy__0_%index               , caxpy__0_%offset.idx          ) {'stmt': '%offset.idx = or i64 %index, 1', 'flow': 'data'}
+(caxpy__0_%index               , caxpy__0_%index.next          ) {'stmt': '%index.next = add i64 %index, 4', 'flow': 'data'}
+(caxpy__0_%index.next          , caxpy__0_%index               ) {'stmt': '%index = phi i64 [ 0, %vector.ph ], [ %index.next, %vector.body ]', 'flow': 'data'}
+(caxpy__0_%index.next          , caxpy__0_%52                  ) {'stmt': '%52 = icmp eq i64 %index.next, %n.vec', 'flow': 'data'}
+(caxpy__0_%offset.idx          , caxpy__0_%36                  ) {'stmt': '%36 = getelementptr i64, i64* %15, i64 %offset.idx', 'flow': 'data'}
+(caxpy__0_%offset.idx          , caxpy__0_%44                  ) {'stmt': '%44 = getelementptr i64, i64* %16, i64 %offset.idx', 'flow': 'data'}
+(caxpy__0_%36                  , caxpy__0_%37                  ) {'stmt': '%37 = bitcast i64* %36 to <8 x float>*', 'flow': 'data'}
+(caxpy__0_%37                  , caxpy__0_%wide.vec            ) {'stmt': '%wide.vec = load <8 x float>, <8 x float>* %37, align 1', 'flow': 'data'}
+(caxpy__0_%wide.vec            , caxpy__0_%strided.vec         ) {'stmt': '%strided.vec = shufflevector <8 x float> %wide.vec, <8 x float> undef, <4 x i32> <i32 0, i32 2, i32 4, i32 6>', 'flow': 'data'}
+(caxpy__0_%wide.vec            , caxpy__0_%strided.vec53       ) {'stmt': '%strided.vec53 = shufflevector <8 x float> %wide.vec, <8 x float> undef, <4 x i32> <i32 1, i32 3, i32 5, i32 7>', 'flow': 'data'}
+(caxpy__0_%strided.vec         , caxpy__0_%38                  ) {'stmt': '%38 = fmul <4 x float> %broadcast.splat55, %strided.vec', 'flow': 'data'}
+(caxpy__0_%strided.vec         , caxpy__0_%40                  ) {'stmt': '%40 = fmul <4 x float> %broadcast.splat57, %strided.vec', 'flow': 'data'}
+(caxpy__0_%strided.vec53       , caxpy__0_%39                  ) {'stmt': '%39 = fmul <4 x float> %broadcast.splat55, %strided.vec53', 'flow': 'data'}
+(caxpy__0_%strided.vec53       , caxpy__0_%41                  ) {'stmt': '%41 = fmul <4 x float> %broadcast.splat57, %strided.vec53', 'flow': 'data'}
+(caxpy__0_%38                  , caxpy__0_%42                  ) {'stmt': '%42 = fsub <4 x float> %38, %41', 'flow': 'data'}
+(caxpy__0_%39                  , caxpy__0_%43                  ) {'stmt': '%43 = fadd <4 x float> %40, %39', 'flow': 'data'}
+(caxpy__0_%40                  , caxpy__0_%43                  ) {'stmt': '%43 = fadd <4 x float> %40, %39', 'flow': 'data'}
+(caxpy__0_%41                  , caxpy__0_%42                  ) {'stmt': '%42 = fsub <4 x float> %38, %41', 'flow': 'data'}
+(caxpy__0_%42                  , caxpy__0_%48                  ) {'stmt': '%48 = fadd <4 x float> %strided.vec59, %42', 'flow': 'data'}
+(caxpy__0_%43                  , caxpy__0_%49                  ) {'stmt': '%49 = fadd <4 x float> %43, %strided.vec60', 'flow': 'data'}
+(caxpy__0_%44                  , caxpy__0_%45                  ) {'stmt': '%45 = bitcast i64* %44 to <{ float, float }>*', 'flow': 'data'}
+(caxpy__0_%44                  , caxpy__0_%46                  ) {'stmt': '%46 = bitcast i64* %44 to <8 x float>*', 'flow': 'data'}
+(caxpy__0_%45                  , caxpy__0_%47                  ) {'stmt': '%47 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %45, i64 0, i32 1', 'flow': 'data'}
+(caxpy__0_%46                  , caxpy__0_%wide.vec58          ) {'stmt': '%wide.vec58 = load <8 x float>, <8 x float>* %46, align 1', 'flow': 'data'}
+(caxpy__0_%wide.vec58          , caxpy__0_%strided.vec59       ) {'stmt': '%strided.vec59 = shufflevector <8 x float> %wide.vec58, <8 x float> undef, <4 x i32> <i32 0, i32 2, i32 4, i32 6>', 'flow': 'data'}
+(caxpy__0_%wide.vec58          , caxpy__0_%strided.vec60       ) {'stmt': '%strided.vec60 = shufflevector <8 x float> %wide.vec58, <8 x float> undef, <4 x i32> <i32 1, i32 3, i32 5, i32 7>', 'flow': 'data'}
+(caxpy__0_%strided.vec59       , caxpy__0_%48                  ) {'stmt': '%48 = fadd <4 x float> %strided.vec59, %42', 'flow': 'data'}
+(caxpy__0_%strided.vec60       , caxpy__0_%49                  ) {'stmt': '%49 = fadd <4 x float> %43, %strided.vec60', 'flow': 'data'}
+(caxpy__0_%47                  , caxpy__0_%50                  ) {'stmt': '%50 = getelementptr float, float* %47, i64 -1', 'flow': 'data'}
+(caxpy__0_%48                  , caxpy__0_%interleaved.vec     ) {'stmt': '%interleaved.vec = shufflevector <4 x float> %48, <4 x float> %49, <8 x i32> <i32 0, i32 4, i32 1, i32 5, i32 2, i32 6, i32 3, i32 7>', 'flow': 'data'}
+(caxpy__0_%49                  , caxpy__0_%interleaved.vec     ) {'stmt': '%interleaved.vec = shufflevector <4 x float> %48, <4 x float> %49, <8 x i32> <i32 0, i32 4, i32 1, i32 5, i32 2, i32 6, i32 3, i32 7>', 'flow': 'data'}
+(caxpy__0_%50                  , caxpy__0_%51                  ) {'stmt': '%51 = bitcast float* %50 to <8 x float>*', 'flow': 'data'}
+(caxpy__0_%interleaved.vec     , caxpy__0_%51                  ) {'stmt': 'store <8 x float> %interleaved.vec, <8 x float>* %51, align 4', 'flow': 'data'}
+(caxpy__0_%indvars.iv.ph       , caxpy__0_%indvars.iv          ) {'stmt': '%indvars.iv = phi i64 [ %indvars.iv.next, %L.LB1_318 ], [ %indvars.iv.ph, %L.LB1_318.preheader61 ]', 'flow': 'data'}
+(caxpy__0_%.dY0001_320.0.ph    , caxpy__0_%.dY0001_320.0       ) {'stmt': '%.dY0001_320.0 = phi i32 [ %65, %L.LB1_318 ], [ %.dY0001_320.0.ph, %L.LB1_318.preheader61 ]', 'flow': 'data'}
+(caxpy__0_%indvars.iv          , caxpy__0_%53                  ) {'stmt': '%53 = getelementptr i64, i64* %15, i64 %indvars.iv', 'flow': 'data'}
+(caxpy__0_%indvars.iv          , caxpy__0_%61                  ) {'stmt': '%61 = getelementptr i64, i64* %16, i64 %indvars.iv', 'flow': 'data'}
+(caxpy__0_%indvars.iv          , caxpy__0_%indvars.iv.next     ) {'stmt': '%indvars.iv.next = add nuw nsw i64 %indvars.iv, 1', 'flow': 'data'}
+(caxpy__0_%indvars.iv.next     , caxpy__0_%indvars.iv          ) {'stmt': '%indvars.iv = phi i64 [ %indvars.iv.next, %L.LB1_318 ], [ %indvars.iv.ph, %L.LB1_318.preheader61 ]', 'flow': 'data'}
+(caxpy__0_%.dY0001_320.0       , caxpy__0_%65                  ) {'stmt': '%65 = add nsw i32 %.dY0001_320.0, -1', 'flow': 'data'}
+(caxpy__0_%.dY0001_320.0       , caxpy__0_%66                  ) {'stmt': '%66 = icmp sgt i32 %.dY0001_320.0, 1', 'flow': 'data'}
+(caxpy__0_%65                  , caxpy__0_%.dY0001_320.0       ) {'stmt': '%.dY0001_320.0 = phi i32 [ %65, %L.LB1_318 ], [ %.dY0001_320.0.ph, %L.LB1_318.preheader61 ]', 'flow': 'data'}
+(caxpy__0_%53                  , caxpy__0_%54                  ) {'stmt': '%54 = bitcast i64* %53 to <{ float, float }>*', 'flow': 'data'}
+(caxpy__0_%53                  , caxpy__0_%.elt4               ) {'stmt': '%.elt4 = bitcast i64* %53 to float*', 'flow': 'data'}
+(caxpy__0_%54                  , caxpy__0_%.elt6               ) {'stmt': '%.elt6 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %54, i64 0, i32 1', 'flow': 'data'}
+(caxpy__0_%.elt4               , caxpy__0_%.unpack5            ) {'stmt': '%.unpack5 = load float, float* %.elt4, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack5            , caxpy__0_%55                  ) {'stmt': '%55 = fmul float %.unpack, %.unpack5', 'flow': 'data'}
+(caxpy__0_%.unpack5            , caxpy__0_%57                  ) {'stmt': '%57 = fmul float %.unpack3, %.unpack5', 'flow': 'data'}
+(caxpy__0_%.elt6               , caxpy__0_%.unpack7            ) {'stmt': '%.unpack7 = load float, float* %.elt6, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack7            , caxpy__0_%56                  ) {'stmt': '%56 = fmul float %.unpack, %.unpack7', 'flow': 'data'}
+(caxpy__0_%.unpack7            , caxpy__0_%58                  ) {'stmt': '%58 = fmul float %.unpack3, %.unpack7', 'flow': 'data'}
+(caxpy__0_%55                  , caxpy__0_%59                  ) {'stmt': '%59 = fsub float %55, %58', 'flow': 'data'}
+(caxpy__0_%56                  , caxpy__0_%60                  ) {'stmt': '%60 = fadd float %57, %56', 'flow': 'data'}
+(caxpy__0_%57                  , caxpy__0_%60                  ) {'stmt': '%60 = fadd float %57, %56', 'flow': 'data'}
+(caxpy__0_%58                  , caxpy__0_%59                  ) {'stmt': '%59 = fsub float %55, %58', 'flow': 'data'}
+(caxpy__0_%59                  , caxpy__0_%63                  ) {'stmt': '%63 = fadd float %.unpack9, %59', 'flow': 'data'}
+(caxpy__0_%60                  , caxpy__0_%64                  ) {'stmt': '%64 = fadd float %60, %.unpack11', 'flow': 'data'}
+(caxpy__0_%61                  , caxpy__0_%62                  ) {'stmt': '%62 = bitcast i64* %61 to <{ float, float }>*', 'flow': 'data'}
+(caxpy__0_%61                  , caxpy__0_%.elt8               ) {'stmt': '%.elt8 = bitcast i64* %61 to float*', 'flow': 'data'}
+(caxpy__0_%62                  , caxpy__0_%.elt10              ) {'stmt': '%.elt10 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %62, i64 0, i32 1', 'flow': 'data'}
+(caxpy__0_%.elt8               , caxpy__0_%.unpack9            ) {'stmt': '%.unpack9 = load float, float* %.elt8, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack9            , caxpy__0_%63                  ) {'stmt': '%63 = fadd float %.unpack9, %59', 'flow': 'data'}
+(caxpy__0_%.elt10              , caxpy__0_%.unpack11           ) {'stmt': '%.unpack11 = load float, float* %.elt10, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack11           , caxpy__0_%64                  ) {'stmt': '%64 = fadd float %60, %.unpack11', 'flow': 'data'}
+(caxpy__0_%63                  , caxpy__0_%.elt8               ) {'stmt': 'store float %63, float* %.elt8, align 4', 'flow': 'data'}
+(caxpy__0_%64                  , caxpy__0_%.elt10              ) {'stmt': 'store float %64, float* %.elt10, align 4', 'flow': 'data'}
+(caxpy__0_%68                  , caxpy__0_%69                  ) {'stmt': '%69 = sub nsw i32 1, %68', 'flow': 'data'}
+(caxpy__0_%68                  , caxpy__0_%.pr                 ) {'stmt': '%.pr = phi i32 [ %.pr.pr, %L.LB1_322thread-pre-split ], [ %68, %L.LB1_355 ]', 'flow': 'data'}
+(caxpy__0_%69                  , caxpy__0_%70                  ) {'stmt': '%70 = mul nsw i32 %69, %7', 'flow': 'data'}
+(caxpy__0_%70                  , caxpy__0_%71                  ) {'stmt': '%71 = add nsw i32 %70, 1', 'flow': 'data'}
+(caxpy__0_%71                  , caxpy__0_%phitmp              ) {'stmt': '%phitmp = sext i32 %71 to i64', 'flow': 'data'}
+(caxpy__0_%phitmp              , caxpy__0_%ix_307.0            ) {'stmt': '%ix_307.0 = phi i64 [ 1, %L.LB1_322thread-pre-split ], [ %phitmp, %L.LB1_355 ]', 'flow': 'data'}
+(caxpy__0_%.pr.pr              , caxpy__0_%.pr                 ) {'stmt': '%.pr = phi i32 [ %.pr.pr, %L.LB1_322thread-pre-split ], [ %68, %L.LB1_355 ]', 'flow': 'data'}
+(caxpy__0_%.pr                 , caxpy__0_%75                  ) {'stmt': '%75 = sub nsw i32 1, %.pr', 'flow': 'data'}
+(caxpy__0_%.pr                 , caxpy__0_%78                  ) {'stmt': '%78 = icmp slt i32 %.pr, 1', 'flow': 'data'}
+(caxpy__0_%.pr                 , caxpy__0_%.dY0002_326.0       ) {'stmt': '%.dY0002_326.0 = phi i32 [ %.pr, %L.LB1_324.preheader ], [ %96, %L.LB1_324 ]', 'flow': 'data'}
+(caxpy__0_%ix_307.0            , caxpy__0_%indvars.iv33        ) {'stmt': '%indvars.iv33 = phi i64 [ %ix_307.0, %L.LB1_324.preheader ], [ %indvars.iv.next34, %L.LB1_324 ]', 'flow': 'data'}
+(caxpy__0_%72                  , caxpy__0_%73                  ) {'stmt': '%73 = load i32, i32* %72, align 4', 'flow': 'data'}
+(caxpy__0_%73                  , caxpy__0_%74                  ) {'stmt': '%74 = icmp sgt i32 %73, -1', 'flow': 'data'}
+(caxpy__0_%73                  , caxpy__0_%76                  ) {'stmt': '%76 = mul nsw i32 %75, %73', 'flow': 'data'}
+(caxpy__0_%73                  , caxpy__0_%83                  ) {'stmt': '%83 = sext i32 %73 to i64', 'flow': 'data'}
+(caxpy__0_%75                  , caxpy__0_%76                  ) {'stmt': '%76 = mul nsw i32 %75, %73', 'flow': 'data'}
+(caxpy__0_%76                  , caxpy__0_%77                  ) {'stmt': '%77 = add nsw i32 %76, 1', 'flow': 'data'}
+(caxpy__0_%77                  , caxpy__0_%phitmp37            ) {'stmt': '%phitmp37 = sext i32 %77 to i64', 'flow': 'data'}
+(caxpy__0_%phitmp37            , caxpy__0_%iy_308.0            ) {'stmt': '%iy_308.0 = phi i64 [ %phitmp37, %L.LB1_356 ], [ 1, %L.LB1_322 ]', 'flow': 'data'}
+(caxpy__0_%iy_308.0            , caxpy__0_%indvars.iv35        ) {'stmt': '%indvars.iv35 = phi i64 [ %iy_308.0, %L.LB1_324.preheader ], [ %indvars.iv.next36, %L.LB1_324 ]', 'flow': 'data'}
+(caxpy__0_%79                  , caxpy__0_%.elt17              ) {'stmt': '%.elt17 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %79, i64 0, i32 1', 'flow': 'data'}
+(caxpy__0_%.elt15              , caxpy__0_%.unpack16           ) {'stmt': '%.unpack16 = load float, float* %.elt15, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack16           , caxpy__0_%86                  ) {'stmt': '%86 = fmul float %.unpack16, %.unpack20', 'flow': 'data'}
+(caxpy__0_%.unpack16           , caxpy__0_%87                  ) {'stmt': '%87 = fmul float %.unpack16, %.unpack22', 'flow': 'data'}
+(caxpy__0_%.elt17              , caxpy__0_%.unpack18           ) {'stmt': '%.unpack18 = load float, float* %.elt17, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack18           , caxpy__0_%88                  ) {'stmt': '%88 = fmul float %.unpack18, %.unpack20', 'flow': 'data'}
+(caxpy__0_%.unpack18           , caxpy__0_%89                  ) {'stmt': '%89 = fmul float %.unpack18, %.unpack22', 'flow': 'data'}
+(caxpy__0_%80                  , caxpy__0_%84                  ) {'stmt': '%84 = getelementptr i64, i64* %80, i64 %indvars.iv33', 'flow': 'data'}
+(caxpy__0_%81                  , caxpy__0_%92                  ) {'stmt': '%92 = getelementptr i64, i64* %81, i64 %indvars.iv35', 'flow': 'data'}
+(caxpy__0_%82                  , caxpy__0_%indvars.iv.next34   ) {'stmt': '%indvars.iv.next34 = add i64 %indvars.iv33, %82', 'flow': 'data'}
+(caxpy__0_%83                  , caxpy__0_%indvars.iv.next36   ) {'stmt': '%indvars.iv.next36 = add i64 %indvars.iv35, %83', 'flow': 'data'}
+(caxpy__0_%indvars.iv35        , caxpy__0_%92                  ) {'stmt': '%92 = getelementptr i64, i64* %81, i64 %indvars.iv35', 'flow': 'data'}
+(caxpy__0_%indvars.iv35        , caxpy__0_%indvars.iv.next36   ) {'stmt': '%indvars.iv.next36 = add i64 %indvars.iv35, %83', 'flow': 'data'}
+(caxpy__0_%indvars.iv.next36   , caxpy__0_%indvars.iv35        ) {'stmt': '%indvars.iv35 = phi i64 [ %iy_308.0, %L.LB1_324.preheader ], [ %indvars.iv.next36, %L.LB1_324 ]', 'flow': 'data'}
+(caxpy__0_%indvars.iv33        , caxpy__0_%84                  ) {'stmt': '%84 = getelementptr i64, i64* %80, i64 %indvars.iv33', 'flow': 'data'}
+(caxpy__0_%indvars.iv33        , caxpy__0_%indvars.iv.next34   ) {'stmt': '%indvars.iv.next34 = add i64 %indvars.iv33, %82', 'flow': 'data'}
+(caxpy__0_%indvars.iv.next34   , caxpy__0_%indvars.iv33        ) {'stmt': '%indvars.iv33 = phi i64 [ %ix_307.0, %L.LB1_324.preheader ], [ %indvars.iv.next34, %L.LB1_324 ]', 'flow': 'data'}
+(caxpy__0_%.dY0002_326.0       , caxpy__0_%96                  ) {'stmt': '%96 = add nsw i32 %.dY0002_326.0, -1', 'flow': 'data'}
+(caxpy__0_%.dY0002_326.0       , caxpy__0_%97                  ) {'stmt': '%97 = icmp sgt i32 %.dY0002_326.0, 1', 'flow': 'data'}
+(caxpy__0_%96                  , caxpy__0_%.dY0002_326.0       ) {'stmt': '%.dY0002_326.0 = phi i32 [ %.pr, %L.LB1_324.preheader ], [ %96, %L.LB1_324 ]', 'flow': 'data'}
+(caxpy__0_%84                  , caxpy__0_%85                  ) {'stmt': '%85 = bitcast i64* %84 to <{ float, float }>*', 'flow': 'data'}
+(caxpy__0_%84                  , caxpy__0_%.elt19              ) {'stmt': '%.elt19 = bitcast i64* %84 to float*', 'flow': 'data'}
+(caxpy__0_%85                  , caxpy__0_%.elt21              ) {'stmt': '%.elt21 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %85, i64 0, i32 1', 'flow': 'data'}
+(caxpy__0_%.elt19              , caxpy__0_%.unpack20           ) {'stmt': '%.unpack20 = load float, float* %.elt19, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack20           , caxpy__0_%86                  ) {'stmt': '%86 = fmul float %.unpack16, %.unpack20', 'flow': 'data'}
+(caxpy__0_%.unpack20           , caxpy__0_%88                  ) {'stmt': '%88 = fmul float %.unpack18, %.unpack20', 'flow': 'data'}
+(caxpy__0_%.elt21              , caxpy__0_%.unpack22           ) {'stmt': '%.unpack22 = load float, float* %.elt21, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack22           , caxpy__0_%87                  ) {'stmt': '%87 = fmul float %.unpack16, %.unpack22', 'flow': 'data'}
+(caxpy__0_%.unpack22           , caxpy__0_%89                  ) {'stmt': '%89 = fmul float %.unpack18, %.unpack22', 'flow': 'data'}
+(caxpy__0_%86                  , caxpy__0_%90                  ) {'stmt': '%90 = fsub float %86, %89', 'flow': 'data'}
+(caxpy__0_%87                  , caxpy__0_%91                  ) {'stmt': '%91 = fadd float %88, %87', 'flow': 'data'}
+(caxpy__0_%88                  , caxpy__0_%91                  ) {'stmt': '%91 = fadd float %88, %87', 'flow': 'data'}
+(caxpy__0_%89                  , caxpy__0_%90                  ) {'stmt': '%90 = fsub float %86, %89', 'flow': 'data'}
+(caxpy__0_%90                  , caxpy__0_%94                  ) {'stmt': '%94 = fadd float %.unpack24, %90', 'flow': 'data'}
+(caxpy__0_%91                  , caxpy__0_%95                  ) {'stmt': '%95 = fadd float %91, %.unpack26', 'flow': 'data'}
+(caxpy__0_%92                  , caxpy__0_%93                  ) {'stmt': '%93 = bitcast i64* %92 to <{ float, float }>*', 'flow': 'data'}
+(caxpy__0_%92                  , caxpy__0_%.elt23              ) {'stmt': '%.elt23 = bitcast i64* %92 to float*', 'flow': 'data'}
+(caxpy__0_%93                  , caxpy__0_%.elt25              ) {'stmt': '%.elt25 = getelementptr inbounds <{ float, float }>, <{ float, float }>* %93, i64 0, i32 1', 'flow': 'data'}
+(caxpy__0_%.elt23              , caxpy__0_%.unpack24           ) {'stmt': '%.unpack24 = load float, float* %.elt23, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack24           , caxpy__0_%94                  ) {'stmt': '%94 = fadd float %.unpack24, %90', 'flow': 'data'}
+(caxpy__0_%.elt25              , caxpy__0_%.unpack26           ) {'stmt': '%.unpack26 = load float, float* %.elt25, align 1', 'flow': 'data'}
+(caxpy__0_%.unpack26           , caxpy__0_%95                  ) {'stmt': '%95 = fadd float %91, %.unpack26', 'flow': 'data'}
+(caxpy__0_%94                  , caxpy__0_%.elt23              ) {'stmt': 'store float %94, float* %.elt23, align 4', 'flow': 'data'}
+(caxpy__0_%95                  , caxpy__0_%.elt25              ) {'stmt': 'store float %95, float* %.elt25, align 4', 'flow': 'data'}
+
+Ctrl flow edges: 
+#edges: 43 (71.15%)
+--------------------------------------------------------------------------------
+(caxpy__0_%2                   , caxpy__0_%L.LB1_310           ) {'stmt': 'br i1 %2, label %L.LB1_310, label %L.LB1_351', 'flow': 'ctrl'}
+(caxpy__0_%2                   , caxpy__0_%L.LB1_351           ) {'stmt': 'br i1 %2, label %L.LB1_310, label %L.LB1_351', 'flow': 'ctrl'}
+(caxpy__0_%5                   , caxpy__0_%L.LB1_310           ) {'stmt': 'br i1 %5, label %L.LB1_310, label %L.LB1_352', 'flow': 'ctrl'}
+(caxpy__0_%5                   , caxpy__0_%L.LB1_352           ) {'stmt': 'br i1 %5, label %L.LB1_310, label %L.LB1_352', 'flow': 'ctrl'}
+(caxpy__0_%8                   , caxpy__0_%L.LB1_353           ) {'stmt': 'br i1 %8, label %L.LB1_353, label %L.LB1_317', 'flow': 'ctrl'}
+(caxpy__0_%8                   , caxpy__0_%L.LB1_317           ) {'stmt': 'br i1 %8, label %L.LB1_353, label %L.LB1_317', 'flow': 'ctrl'}
+(caxpy__0_%11                  , caxpy__0_%L.LB1_354           ) {'stmt': 'br i1 %11, label %L.LB1_354, label %L.LB1_322thread-pre-split', 'flow': 'ctrl'}
+(caxpy__0_%11                  , caxpy__0_%L.LB1_322thread-pre-) {'stmt': 'br i1 %11, label %L.LB1_354, label %L.LB1_322thread-pre-split', 'flow': 'ctrl'}
+(caxpy__0_%13                  , caxpy__0_%L.LB1_310           ) {'stmt': 'br i1 %13, label %L.LB1_310, label %L.LB1_318.preheader', 'flow': 'ctrl'}
+(caxpy__0_%13                  , caxpy__0_%L.LB1_318.preheader ) {'stmt': 'br i1 %13, label %L.LB1_310, label %L.LB1_318.preheader', 'flow': 'ctrl'}
+(caxpy__0_%min.iters.check     , caxpy__0_%L.LB1_318.preheader6) {'stmt': 'br i1 %min.iters.check, label %L.LB1_318.preheader61, label %vector.scevcheck', 'flow': 'ctrl'}
+(caxpy__0_%min.iters.check     , caxpy__0_%vector.scevcheck    ) {'stmt': 'br i1 %min.iters.check, label %L.LB1_318.preheader61, label %vector.scevcheck', 'flow': 'ctrl'}
+(caxpy__0_%33                  , caxpy__0_%L.LB1_318.preheader6) {'stmt': 'br i1 %33, label %L.LB1_318.preheader61, label %vector.ph', 'flow': 'ctrl'}
+(caxpy__0_%33                  , caxpy__0_%vector.ph           ) {'stmt': 'br i1 %33, label %L.LB1_318.preheader61, label %vector.ph', 'flow': 'ctrl'}
+(caxpy__0_%ind.end             , caxpy__0_%vector.body         ) {'stmt': 'br label %vector.body', 'flow': 'ctrl'}
+(caxpy__0_%ind.end48           , caxpy__0_%vector.body         ) {'stmt': 'br label %vector.body', 'flow': 'ctrl'}
+(caxpy__0_%broadcast.splat55   , caxpy__0_%vector.body         ) {'stmt': 'br label %vector.body', 'flow': 'ctrl'}
+(caxpy__0_%broadcast.splat57   , caxpy__0_%vector.body         ) {'stmt': 'br label %vector.body', 'flow': 'ctrl'}
+(caxpy__0_%52                  , caxpy__0_%middle.block        ) {'stmt': 'br i1 %52, label %middle.block, label %vector.body', 'flow': 'ctrl'}
+(caxpy__0_%52                  , caxpy__0_%vector.body         ) {'stmt': 'br i1 %52, label %middle.block, label %vector.body', 'flow': 'ctrl'}
+(caxpy__0_%cmp.n               , caxpy__0_%L.LB1_310           ) {'stmt': 'br i1 %cmp.n, label %L.LB1_310, label %L.LB1_318.preheader61', 'flow': 'ctrl'}
+(caxpy__0_%cmp.n               , caxpy__0_%L.LB1_318.preheader6) {'stmt': 'br i1 %cmp.n, label %L.LB1_310, label %L.LB1_318.preheader61', 'flow': 'ctrl'}
+(caxpy__0_%indvars.iv.ph       , caxpy__0_%L.LB1_318           ) {'stmt': 'br label %L.LB1_318', 'flow': 'ctrl'}
+(caxpy__0_%.dY0001_320.0.ph    , caxpy__0_%L.LB1_318           ) {'stmt': 'br label %L.LB1_318', 'flow': 'ctrl'}
+(caxpy__0_%66                  , caxpy__0_%L.LB1_318           ) {'stmt': 'br i1 %66, label %L.LB1_318, label %L.LB1_310', 'flow': 'ctrl'}
+(caxpy__0_%66                  , caxpy__0_%L.LB1_310           ) {'stmt': 'br i1 %66, label %L.LB1_318, label %L.LB1_310', 'flow': 'ctrl'}
+(caxpy__0_%67                  , caxpy__0_%L.LB1_322thread-pre-) {'stmt': 'br i1 %67, label %L.LB1_322thread-pre-split, label %L.LB1_355', 'flow': 'ctrl'}
+(caxpy__0_%67                  , caxpy__0_%L.LB1_355           ) {'stmt': 'br i1 %67, label %L.LB1_322thread-pre-split, label %L.LB1_355', 'flow': 'ctrl'}
+(caxpy__0_%phitmp              , caxpy__0_%L.LB1_322           ) {'stmt': 'br label %L.LB1_322', 'flow': 'ctrl'}
+(caxpy__0_%.pr.pr              , caxpy__0_%L.LB1_322           ) {'stmt': 'br label %L.LB1_322', 'flow': 'ctrl'}
+(caxpy__0_%74                  , caxpy__0_%L.LB1_323           ) {'stmt': 'br i1 %74, label %L.LB1_323, label %L.LB1_356', 'flow': 'ctrl'}
+(caxpy__0_%74                  , caxpy__0_%L.LB1_356           ) {'stmt': 'br i1 %74, label %L.LB1_323, label %L.LB1_356', 'flow': 'ctrl'}
+(caxpy__0_%phitmp37            , caxpy__0_%L.LB1_323           ) {'stmt': 'br label %L.LB1_323', 'flow': 'ctrl'}
+(caxpy__0_%78                  , caxpy__0_%L.LB1_310           ) {'stmt': 'br i1 %78, label %L.LB1_310, label %L.LB1_324.preheader', 'flow': 'ctrl'}
+(caxpy__0_%78                  , caxpy__0_%L.LB1_324.preheader ) {'stmt': 'br i1 %78, label %L.LB1_310, label %L.LB1_324.preheader', 'flow': 'ctrl'}
+(caxpy__0_%.unpack16           , caxpy__0_%L.LB1_324           ) {'stmt': 'br label %L.LB1_324', 'flow': 'ctrl'}
+(caxpy__0_%.unpack18           , caxpy__0_%L.LB1_324           ) {'stmt': 'br label %L.LB1_324', 'flow': 'ctrl'}
+(caxpy__0_%80                  , caxpy__0_%L.LB1_324           ) {'stmt': 'br label %L.LB1_324', 'flow': 'ctrl'}
+(caxpy__0_%81                  , caxpy__0_%L.LB1_324           ) {'stmt': 'br label %L.LB1_324', 'flow': 'ctrl'}
+(caxpy__0_%82                  , caxpy__0_%L.LB1_324           ) {'stmt': 'br label %L.LB1_324', 'flow': 'ctrl'}
+(caxpy__0_%83                  , caxpy__0_%L.LB1_324           ) {'stmt': 'br label %L.LB1_324', 'flow': 'ctrl'}
+(caxpy__0_%97                  , caxpy__0_%L.LB1_324           ) {'stmt': 'br i1 %97, label %L.LB1_324, label %L.LB1_310', 'flow': 'ctrl'}
+(caxpy__0_%97                  , caxpy__0_%L.LB1_310           ) {'stmt': 'br i1 %97, label %L.LB1_324, label %L.LB1_310', 'flow': 'ctrl'}
+
+Multi-edges: 
+#multi-edges: 0 (0.0%)
+#node pairs connected by multi-edges: 0 (0.0%)
+--------------------------------------------------------------------------------

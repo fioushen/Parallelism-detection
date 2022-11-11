@@ -1,0 +1,15 @@
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder data\test there were 0/1 broken.
+In folder test_xfg_util\test there were 0/1 broken.
