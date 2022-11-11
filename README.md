@@ -42,7 +42,7 @@ issn = {0167-739X},
 doi = {https://doi.org/10.1016/j.future.2021.07.001},
 url = {https://www.sciencedirect.com/science/article/pii/S0167739X21002557}
 }
-@article{SHEN2021515,
+@article{SHEN,
 author = {Yuanyuan Shen and Manman Peng and Qiang Wu and Guoqi Xie},
 title = {Multi-graph Learning for Parallelism Discovery in Sequential Programs}
 }
