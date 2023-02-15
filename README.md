@@ -44,6 +44,10 @@ url = {https://www.sciencedirect.com/science/article/pii/S0167739X21002557}
 }
 @article{SHEN,
 author = {Yuanyuan Shen and Manman Peng and Qiang Wu and Guoqi Xie},
-title = {Multi-graph Learning for Parallelism Discovery in Sequential Programs}
-}
+title = {Multigraph Learning for Parallelism Discovery in Sequential Programs}
+},
+journal = {Concurrency and Computation: Practice and Experience},
+year = {2023},
+doi = {https://doi.org/10.1002/cpe.7648},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.7648}
 ```
